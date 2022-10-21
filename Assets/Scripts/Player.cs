@@ -6,10 +6,13 @@ public class Player : MonoBehaviour
 {
     public float velocity;
     public float pushForce = 10f;
+    public bool tool = false;
 
     private Vector2 direction;
     private Rigidbody2D rigidBody;
     private GameObject insideHouse;
+    private GameObject axe;
+
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -34,6 +37,12 @@ public class Player : MonoBehaviour
         {
             transform.position = insideHouse.transform.position;
         }
+
+        if (Input.GetKeyDown(KeyCode.Z) && tool)
+        {
+            axe.gameObject.SetActive(false);
+            Debug.Log("tiene el hacha : " + tool);
+        }
     }
 
     private void FixedUpdate()
@@ -48,15 +57,23 @@ public class Player : MonoBehaviour
             GameObject warp = collider.transform.parent.gameObject;
             if (collider.name == "DoorA")
             {
-
                 insideHouse = warp.transform.Find("DoorB").gameObject;
             }
             else
             {
-
                 insideHouse = warp.transform.Find("DoorA").gameObject;
             }
         }
+
+        if(collider.name == "Axe")
+        {
+            
+            tool = true;
+            axe = collider.gameObject;
+            Debug.Log("tiene el hacha : " + tool + axe);
+
+        }
+        
 
     }
 
