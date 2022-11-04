@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float velocity;
     public float pushForce = 10f;
     public bool tool = false;
+    public bool toolGrab = false;
 
     private Vector2 direction;
     private Rigidbody2D rigidBody;
@@ -42,6 +43,7 @@ public class Player : MonoBehaviour
         {
             axe.gameObject.SetActive(false);
             Debug.Log("tiene el hacha : " + tool);
+            toolGrab = true;
         }
     }
 
@@ -84,6 +86,14 @@ public class Player : MonoBehaviour
         {
             insideHouse = null;
         }
-    }
+         if(collider.name == "Axe")
+        {
+            
+            tool = false;
+            axe = null;
+            Debug.Log("NO tiene el hacha : " + tool + axe);
+
+        }
+    }
 
 }

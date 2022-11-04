@@ -27,7 +27,7 @@ public class Obstacle : MonoBehaviour
         {
            // player.tool;
             Debug.Log(player.tool);
-            tool = player.tool;
+            tool = player.toolGrab;
         }
     }
 
@@ -35,6 +35,6 @@ public class Obstacle : MonoBehaviour
     {
         
         Destroy(gameObject);
-        
-    }
+        
+    }
 }

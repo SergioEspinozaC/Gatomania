@@ -1,0 +1,8044 @@
+fileFormatVersion: 2
+guid: d057c431ba24dd44db0174b5fd31ed45
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Outdoor_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329112dc84877e34990588ef82e7ff23
+      internalID: 379164218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f5913ca5ff6c244a14a49624485b47
+      internalID: -1638428691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d512bb1cb4cf38a4eb9c8badf037804d
+      internalID: 1973527787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9dcebcdf32d4c419252411aa18d67d
+      internalID: -1727868639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2360
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5493dba51fb7c4fad1583144597852
+      internalID: -174739974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2359
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298cc93fc0106d842b742a53780bae7e
+      internalID: -1486789781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2351
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f002c04acafe54c9adb00ee2b61067
+      internalID: 901127072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2351
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245c9e80c520aae42b1336d204568dda
+      internalID: 1596915852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2351
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388e85fe3266ee54b97f0f13737d0aee
+      internalID: 183425108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2351
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6088eb89ecb734fac38559c825a1b3
+      internalID: 388738278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2361
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63464c437b880841970a696d07d267a
+      internalID: -1781215321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 2359
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701cfd48715d821419103bcec6f61d30
+      internalID: 1912391557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2348
+        width: 192
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e7eed1ea6e97b4f98f8feb4e142c5f
+      internalID: -1140408336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2357
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b76280a6f44c04ab4f94f97c7ed933
+      internalID: -1891664459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2357
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b498f58f63d010e4bbbc39913c8dfa69
+      internalID: -2070136251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0239d3a85cdbe254781215ff6fb67442
+      internalID: -946127592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e61d7d975de9547866a052502ed3c1
+      internalID: 661868280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f34b58922aa2304cbec3031a8c429d2
+      internalID: 858058708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0d647a41553ab4d8b450b3a42d3adb
+      internalID: 1092895454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2361
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819b2c85e94db9b46aa81aa7f763c014
+      internalID: -2004539049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2355
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c02189f120f7d343beb1a1bcc3f77c2
+      internalID: -1194111024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2344
+        width: 433
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76577bda520caea489fa24effde1b137
+      internalID: -488044071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2303
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b8c73d0691ad4a84eb8151713d5a6
+      internalID: 1817464601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2303
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17091c1275a39ce4ba1b1d982726fdf8
+      internalID: 392157639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2266
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8483f3abede2874eb2f817ca9c83d72
+      internalID: 271236772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2266
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367e83e57bff34642a902fa36feb7cc9
+      internalID: -166868132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2266
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c7ae3caaae5654e99fece570d112e1
+      internalID: 455478202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2266
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e4f2df6d41cce45a98b885c646f12c
+      internalID: 1098218942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2279
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19865b6403f8d1b44a40c7e3b977a79e
+      internalID: -167596974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2280
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccd23af8ff546b4cb34fceea3408ca5
+      internalID: 1581579822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2262
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14085e6df60ae6544be855d4e23b67b7
+      internalID: -1557562856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2262
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c0e6883810cef4b9bffef55e2bb163
+      internalID: 767814895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2262
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966a8d184af0dd04dacbaad16008998e
+      internalID: 1539884374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2262
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bea8e8b8419d07469b1e8af1be9817e
+      internalID: -654166746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2280
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b103ed93bd5c7fd4b933f06a3931a5d6
+      internalID: 101519344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2282
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce8ae72f2d4f51419f732c1d4eb2d8f
+      internalID: 757177002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2262
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5df08a6af9948458e531a28d642dc8
+      internalID: 903451264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2262
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b483a64165af049b3cbe80b93e4a89
+      internalID: -1231795613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2262
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d9f6678c2b3264d9c39f3aeedf7a78
+      internalID: -516073942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2262
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251f724f1dd45704297bb02f2a618a94
+      internalID: 493972459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2285
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb003164d8c1e55408724fcb17e2fa38
+      internalID: 725558963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2286
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dd45f37dd2dea4babc4e5d09df9027
+      internalID: 449438571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 2268
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f69ecc1214584ebfa63d18bb9a473
+      internalID: -1166904422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2268
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6138757b1f8548a3f3490650bb675
+      internalID: 2136125084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 2268
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe27ff02aaef5ea40a53ec6716f6aa97
+      internalID: -173391184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2268
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7b1c69abf6598469c06127b5bc7f6d
+      internalID: -843666518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 2279
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0b142e8f8cdc843b974cc4401ad5f8
+      internalID: 809090636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2279
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e727b8a5304ca45b1eb073bc7d636c
+      internalID: 185325117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 2239
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0251ea209e2e44043871230052c5985a
+      internalID: -1119276005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 2239
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c5f2a2d82edc741ba4b6ac2df6efc4
+      internalID: -1425329712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2171
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5d171bb2e8b70419b039d6c13bba28
+      internalID: 973235211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2207
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2a86e965955b84f8aafbaf13b8415e
+      internalID: -1436891590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2207
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b42864d32bef9e46890623b01b81052
+      internalID: -151971092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2207
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53874fff8e820df4086971e93c58d1a0
+      internalID: 159553026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2207
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0881bd128ab5764490a87e066fbc77c
+      internalID: -160158068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2207
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7580b08e73455a541892680addc358be
+      internalID: 381296276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2207
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd72536c833edc45862cbc9fadfc758
+      internalID: 1816845460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2204
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f681f4ee52365e43810b197e1401195
+      internalID: 623379525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2205
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c440909b54a67b49839d62825bd04a9
+      internalID: 545248432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2207
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca33eb55b7d5174298a521caf78cbfc
+      internalID: -972506150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2200
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915da5304662eab42a898b6baf5ca59b
+      internalID: -568391495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2183
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4473a274f782ec459483d1fbfc535ed
+      internalID: 2002778708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2204
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e384b204bad9d42ac23588861447e4
+      internalID: -987053024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2189
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab4db2f48e5c2499a5fe197a539b32
+      internalID: -810964148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2193
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87587b4d1f2f8134693329fd5593bd45
+      internalID: -1204089294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 2207
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d358c2ea520bca4db8452dca59c4ffd
+      internalID: 1853884591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2204
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cbace83dba2e544924a78967559b90
+      internalID: 687488331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2190
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7466a9f0c7bcba84081363cfcdc72068
+      internalID: -839899485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2125
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eace269577c37254cb2d6ff89e1a85ec
+      internalID: -1695870028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 2125
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e3e205dffed0e4ab73b3ff4814d6c1
+      internalID: 562334014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2125
+        width: 84
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe0f501125f0d14fa0ddbcec72c7f89
+      internalID: -1419017943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 2125
+        width: 84
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e977db12f96054b438198efd70698d85
+      internalID: -1788755191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2207
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf38dda05614bf94bb0e1346d857e74a
+      internalID: -1232211365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42a7aaf607340488972922e8e0fd91
+      internalID: -1801535371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 2239
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fda185628a8674badbed138c36046b
+      internalID: -836295763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8580a2d7acff3419b3f6c0b4623804
+      internalID: 1849604502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2227
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d7517cf7fac9341bf672597155b236
+      internalID: -1640767670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2223
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d21e690baa1f194dae97b57ac2e0cb2
+      internalID: -613802756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2220
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42653dd328648db418e009fd15121880
+      internalID: 929383042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65049309f3bd1de4d88881685af33218
+      internalID: 432136389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2173
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02ab6fa65661b745968c807e1c047d0
+      internalID: 384068656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2175
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b140d4ead1d4439a0f249f7ba0b22
+      internalID: 1371506345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df10bfd7c86548d4f98820dd86b29f74
+      internalID: 107482910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2191
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678d3f2f4cb5fe0499927d7994162864
+      internalID: -775271002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log&Axe_0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2168
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f3b679a7f1764d8c79d38d01f453a
+      internalID: 1499761840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59064cc39ce94d04caa1631cd77b0c3e
+      internalID: -1820655559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2194
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffc8ce4126bb7947b3dd34f9c08459c
+      internalID: 1028243950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_0
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2177
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618edc9e10b46af469940a75bdc32187
+      internalID: 1749249690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2031
+        width: 562
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f286248918f54d449e32db6ea8fe49d
+      internalID: -1511432727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da584b709abc85248b559e56f1b2407c
+      internalID: 974303719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_90
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2183
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d042e56ed16c94bb9da403126ba2b8
+      internalID: 365662783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2113
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c6c9db198733f4486e056a18c463ed
+      internalID: -1913692657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_92
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2116
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a876f546c13a50c4e92eb845656b4f98
+      internalID: 842989934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_93
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2116
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d19a6acc211db4db78c041f173b6b2
+      internalID: 45712465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_94
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2095
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113cda48c838ed840bf30b03c13d3c67
+      internalID: 594520661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_95
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2064
+        width: 248
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86910acaaa448c46ab3d892a203401a
+      internalID: 396616594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_96
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1951
+        width: 281
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7d9be4d03d8b349b23ba1e28f7e2f5
+      internalID: 535421446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2133
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037893446f05cb24c91ee1377815f1d8
+      internalID: 1728904621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_98
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2011
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4936472d72c40bb4bb3c4188ea499684
+      internalID: -733378590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2016
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6135aeb16c0da1344a945476d6db586f
+      internalID: 915385793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_100
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2036
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e63e4acd108540a4e137305a42567
+      internalID: 2018119387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_101
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1980
+        width: 84
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a86c0f48fa77f4c93d712285cfc8c4
+      internalID: -523051962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_102
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1980
+        width: 84
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3c57dda5f1024784ae302656b5774
+      internalID: -1790683845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_103
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 2020
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b6984637981b498e65c7f5d19d9f4
+      internalID: 798062249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_104
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2016
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2582c595e93bb4dad34e99c4e1b233
+      internalID: 543374784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1903
+        width: 530
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db4f87211713a40bb85e0827693274
+      internalID: -311262465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_106
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1903
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453558e4d75faad48a6d35b0ae3496ce
+      internalID: 1450013699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_107
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1903
+        width: 241
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a167d443df51a14caa39661af2e28da
+      internalID: -1875059342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_108
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1935
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47ed7cb7477c72458183b0b549b5868
+      internalID: 1341549911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_109
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1925
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b8ed7740aab594bbc6fc399446af8f
+      internalID: 1979299635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_110
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1903
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9961db95312c24fbf13fa7c3ab938b
+      internalID: 392420284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_111
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1903
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4060bcee3b81a48bca4a7cfd300579
+      internalID: 1976859539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_112
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1920
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ea0d8fbc75b824e9667b902580e21f
+      internalID: -1154829916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_113
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1925
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82c1b2f77b7be04cadb8249befdfa5a
+      internalID: -1521064878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_114
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1855
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b27e15d9706ed48b8dfcf2be8d76cd
+      internalID: -1513511119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_115
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1918
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc5ba7e7a153014d9281da78d0e9411
+      internalID: 696045479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_116
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1871
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597dfefd86e005e4eb02c41f68344137
+      internalID: -703985831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_117
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1871
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60466f3c14651794b80afbba72d3413d
+      internalID: 1355774223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_118
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1871
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557aae49ef5f4064db5c015f1c2aaed2
+      internalID: -1911891705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_119
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1871
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff63aef572c34ef4586a47a7287331ca
+      internalID: -30422065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1807
+        width: 287
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54c4f1cef3ff0949ad0b17003ed42c4
+      internalID: 2127915600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_121
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1680
+        width: 898
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e33c79835ff22246a4db69d770535d7
+      internalID: 1900106765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_122
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1887
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7890168c9313f1c42a436f27b6012258
+      internalID: -1532479981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_123
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1856
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6d15dc87e7e844ba054eb3fc8d5baa
+      internalID: -1728861844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_124
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1822
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ba95debe72fc946ae4ed906af76a12
+      internalID: 990963409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_125
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1825
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b8b394c57aba24ca791140ced234f6
+      internalID: 1386717726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_126
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1825
+        width: 130
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a79e3b50ac00b84c806d9031fe68ab1
+      internalID: -550774717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_127
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1828
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288374e50bf2651449817128a4eab3fa
+      internalID: 496210804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_128
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1792
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677f2bba9f0eb8445ba375e1422fce1c
+      internalID: -527818318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_129
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1792
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6c4ed522bc21b4b9cb97084f6acc73
+      internalID: -319389959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_130
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1806
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcbab2db25fb9e44bbf9edc2e8b7825
+      internalID: -1112482056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_131
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1806
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8579cc37e74a6e48aa6d93cc04b9bda
+      internalID: 257583655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_132
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1791
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efa187e3962b7747be91da5925d64fe
+      internalID: -1994997815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_133
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1759
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2871fe71dd0344c44bdbde5f7e003927
+      internalID: 1241408132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_134
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1759
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad40f0469398414692578d3f4bdc839
+      internalID: -802481721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_135
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1759
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c895b90fa2f2654c893140a7a20c6d9
+      internalID: -291367463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_136
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1759
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d365110b5a4fc4cbcc255b4f3ef942
+      internalID: 1286576738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_137
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1791
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4ca969f3d3b814bba6f834b89dc982
+      internalID: 468216643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_138
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1792
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4866c9fd68c700841bfc83f4c2bf9fc3
+      internalID: -523049901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_139
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1791
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db13f8860741b442a7af7be4443731f
+      internalID: -1787844707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_140
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1791
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5d9349f584bea408fcc9f8a54a9582
+      internalID: -378665939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_141
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1774
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec419cb0b66dd864894e5c269a95b0c4
+      internalID: 321405636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_142
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1774
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e566b2b5a666d40bf470366ac345ec
+      internalID: 218522422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_143
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1774
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90e5e09ef6377d44a02e32728437fb8
+      internalID: -949501324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_144
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1733
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446948a5890ccc84895d1e8a9c19d834
+      internalID: 409781725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_145
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1759
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c2bc10a6ada1a409995371853f2570
+      internalID: 1323983015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_146
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1729
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c427019d33a5efc45884dda1bae6ae1c
+      internalID: 646133573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_147
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1727
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f5d6de1343d344e89939aec6c9c3e6
+      internalID: 990877238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_148
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1727
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77649546f978b74f8f943461b292dd3
+      internalID: -1675101208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_149
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1729
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ddbfa6118027343be0de90230598fb
+      internalID: -1097730931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_150
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1729
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5144bd91bf39fd044aef8962c3e660ff
+      internalID: -1428607438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_151
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1743
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b957af5482ae24fbc5dec3e3a0270c
+      internalID: -360066858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_152
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1743
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6857570a1b6e3a841a9099ac54857620
+      internalID: 207201903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_153
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1729
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f3d2fde0d34cd459ab88215a863f7e
+      internalID: 630440813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_154
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1729
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1101589e2b9194fbcc4f93fd2202ed
+      internalID: -1502987064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_155
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1527
+        width: 338
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bd9430b50c01746b6763405dfbd508
+      internalID: 520249339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_156
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1711
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1f0f1d11fbd0742a06fdfe353c57a4
+      internalID: -2076836901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_157
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1711
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b94741e5969164ea9f9ff69c1f9589
+      internalID: -268871074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_158
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1711
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68fe4d8d6a44c44488ab6aae5e0abd9
+      internalID: -127635308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_159
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1711
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b4b7cff40176c4baf97b813bfd8642
+      internalID: 1754416677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_160
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1535
+        width: 254
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f37cd4d60977f45a86dd28b011e36c
+      internalID: 1139499583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_161
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1519
+        width: 493
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c4f1a34e3f0aa41a461f367ae3a15f
+      internalID: 408453111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_162
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1634
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514ac83f45a798747b8db45177debdf5
+      internalID: -1473516599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_163
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1631
+        width: 142
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae5e8e03894714bbcf61952dd856bf
+      internalID: 617927049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_164
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1664
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc4c973d46dfb49bb97bf0df334a8a
+      internalID: -1580929985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_165
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1670
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79de4ed27ec5df3449174b18ddd32baf
+      internalID: -755437067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_166
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1583
+        width: 242
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b38ac299ff31499addc8ce287ee70
+      internalID: 630140439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_167
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1631
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756b4f6522e0bf1418d49301b3dd65de
+      internalID: 2096900511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_168
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1638
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a11a6e595cff74eae53b046bfdac58
+      internalID: 399134454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_169
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1561
+        width: 130
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f4cda041873bb469c3df1f615260ec
+      internalID: 1295683115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_170
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1613
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d4c65dc4595e54ba9f4b3c650fc1fc
+      internalID: 174944743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_171
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1603
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9a7c9c0f8d3b04496f5096a134d053
+      internalID: -2099713062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_172
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1552
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54ec02d00648ba4b80c3e4fa69b0b43
+      internalID: 1862869970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_173
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1403
+        width: 384
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab13f75f6df6174fa00a60f48b9ee1f
+      internalID: 72958730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_174
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1568
+        width: 115
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64c4ff82c756c142a4cc3cf446727a4
+      internalID: 473058794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_175
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1569
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4836766fcabd5b41b1eea479c407b88
+      internalID: 358077466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_176
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1567
+        width: 143
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ffc4cefa6e1ae47808c86186ceab6f
+      internalID: -100741349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_177
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1553
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cdf6b27698f974bb56b17e832df10c
+      internalID: -1527758151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_178
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1589
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e1363bff914f44b89807716b569daf
+      internalID: -322790603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_179
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1573
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7872d87168310ee459bfa51cc98a5056
+      internalID: -2016229728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_180
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1590
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4a1d62397fe5d4793a18a65047df83
+      internalID: 645890165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_181
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1573
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bafe896679cbe43a8f2efecbdf22fc
+      internalID: 1758135057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_182
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1570
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cfb6deb49141240ad9ca7dc417cbd4
+      internalID: -477214197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_183
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1541
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e23835194edc44fbca2ed97b014b38
+      internalID: -1624034424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_184
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1535
+        width: 111
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45364cbfbcb766a4384c1fdd95749774
+      internalID: -1862750951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_185
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1424
+        width: 62
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec3db4abf3a1024bab26bea6051e5fe
+      internalID: 1304178620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_186
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1489
+        width: 110
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62b16ee17e7aad458a17edfcfd698ba
+      internalID: 1208835803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_187
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1439
+        width: 140
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93909a00af0af4f48b218eee48f7f1d5
+      internalID: 1086469163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_188
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1439
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836e7bc930ba10445988ba3a5b77a711
+      internalID: -2085338569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_189
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1471
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69daba8930e5e64bbfbc07e9feff89f
+      internalID: -595799242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_190
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1491
+        width: 60
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40bf67a64bfe645b5ebf8091c0e3df
+      internalID: 1491621578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_191
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1455
+        width: 193
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15ce7312727d474d9ec6553ba680f89
+      internalID: 1553862043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_192
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1375
+        width: 49
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cd3a3316191df418ac3f2acf9c8536
+      internalID: -1129330944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_193
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1391
+        width: 41
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28b51013a5c184eb1688814eecdb63
+      internalID: -2006079236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_194
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1344
+        width: 55
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba035dcd2f5c7b44490498633c7412fc
+      internalID: 78395402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_195
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1423
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ac7790bb4805c4f980a184a9fa3c74
+      internalID: -1278573962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_196
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1409
+        width: 154
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8aeecd488caf248a62f9584a87d46f
+      internalID: -1800061337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_197
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1457
+        width: 10
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb261dfaa54ad0d4e84e95b337258a0e
+      internalID: 908187728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_198
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1359
+        width: 329
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3769fafea2fb317439c27419a0a485c8
+      internalID: 287658184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_199
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1423
+        width: 163
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767a835d72260664e9062d9a60b3249b
+      internalID: 1775648460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_200
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1471
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaec51892d9579a47b989be186d3db2a
+      internalID: 509318479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_201
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1471
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8272e63804ea9804bad825777e0010ff
+      internalID: -347721920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_202
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1362
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90285b488debc2c43bf53dd040fdc0ac
+      internalID: -756133578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_203
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1389
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957b09d152b167d49a06517b4554153f
+      internalID: -991597151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_204
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1389
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b2f1008eca2fd48a600de338fc52d6
+      internalID: -1503570832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_205
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1402
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3190227ee983b64c807002ccea2012c
+      internalID: -331179124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_206
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1446
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e4dbd0ca68724b8274600f4844026
+      internalID: -844982595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_207
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1439
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e0af90687c1bb4b940e5e6a427e4b8
+      internalID: -553472289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_208
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1382
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1483d6a6740774abec38983a1f2503
+      internalID: -1167907846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_209
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1430
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4838ac270bbd8448a4921b8fbba1bcf
+      internalID: 795672052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_210
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1375
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dd6582f6055994ebd89747e000c787
+      internalID: 414070190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_211
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1391
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb512d0795a824facc7622c1c8215d
+      internalID: 330104115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_212
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1391
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec9e649d03b82645b7aff01b35bcaaf
+      internalID: -875924699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_213
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1391
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdc949ed1d1bd04ca435c8feb6832d2
+      internalID: 1489160810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_214
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1391
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d41182a2ff9e9448cac30b0d63fc98
+      internalID: -924248870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_215
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1391
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624abe2adead081408976067c8ad4e90
+      internalID: 1435624439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_216
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1423
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96e22636b2533a4eb86b46486abc913
+      internalID: -264661317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_217
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1425
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bfd442b6a2c884389a6ef9bedb1429
+      internalID: 468403984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_218
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1405
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d1bf886c4f19e4481c0f3900ab4492
+      internalID: 274273089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_219
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1389
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eafb40f7236514492ee4debd0270f6
+      internalID: -1970453210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_220
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1409
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88a385efdf22804bbdd2289a21f16f8
+      internalID: -1970981115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_221
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1375
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d4c0f6dd82fae47a010425c0216163
+      internalID: -75702964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_222
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1247
+        width: 258
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a67ff2a8aea45149ac1698a8eb4f519
+      internalID: 1868234895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_223
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1356
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d678d2d0b3f45a4596b2e31933d5e40
+      internalID: 1830253982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_224
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1341
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3621877e8606a5640be52260aca9b8b4
+      internalID: -184155459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box_0
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1352
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515ba9818cb33234399c233430f13e8f
+      internalID: 705287837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_226
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1343
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a31bab9b10986c458a8f6554b362e22
+      internalID: 105396223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_227
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1343
+        width: 129
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d5144b99f9a1459c41863a152b91e
+      internalID: -2125612997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_228
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1313
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6f9f3b79009c748a8badeba9d48cdd
+      internalID: -1662844567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_229
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1328
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8472436bb2637f24b852715e0d409e86
+      internalID: 1343795308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_230
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1328
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b77d40b4dc512b40b3b86c4a57123e6
+      internalID: 2015108942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_231
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1343
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05983ca1ebbf40b4bbd1686cb0ddb09c
+      internalID: -974139902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_232
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1328
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a29b612f2faa849b6f2d9e91fbba36
+      internalID: -1339902974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_233
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1343
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118225c93454e5042b5a3dd547f72940
+      internalID: -1505864752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_234
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1344
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7fead7bd1de1c40b0b21590a14cdb1
+      internalID: 1386862048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_235
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1032
+        width: 514
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1da2c2e0f9c3d44c9260d31f110237b
+      internalID: -1082475291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_236
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1191
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bb56009d4afa3439c0e51428d206d2
+      internalID: -1670321323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_237
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1198
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab936f75ccd4fd546b7bad214cabedc6
+      internalID: 207456020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_238
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1192
+        width: 99
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad2494205d8caa4797a1d484cf24b61
+      internalID: 587927993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_239
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1201
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09276d6ea84b5aa469b0c97f68112364
+      internalID: 217193778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_240
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1196
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d89b4bc8dca246b8972fdd66f1106
+      internalID: 2047641436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_241
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1196
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ed6ef157ab238488ab1141e2a53664
+      internalID: -681435593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_242
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1196
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd0a14a9920c945bff3143f9dc969a
+      internalID: 2070828470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_243
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1196
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9094054362f3d944caacac7f09e80e2d
+      internalID: -43230001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_244
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1181
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b18759fa54f1443b9130f645d9eaae
+      internalID: 1129959783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_245
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1194
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c654686162f707749930e821dfb944fe
+      internalID: -899900942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_246
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1181
+        width: 92
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ba0577bb2fe2a4a91a88a0c5d6526b
+      internalID: -1434456892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_247
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1194
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee157df1b1438fb4188043d4b6db9f77
+      internalID: 205457379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House_0
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1043
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a6b5b554e8f64faddcd71a05d8cc5
+      internalID: 1756774906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_249
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1048
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb21ef988fbe9140a825c4454d7446f
+      internalID: -393897880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_250
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1046
+        width: 81
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e5ed9bb77f22b4ba8026962741a4b1
+      internalID: -1386514623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_251
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1046
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ecd7763bda57c4188b7f1dd9cbf141
+      internalID: -1659974943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_252
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1051
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7b3a3498bbea14bbbc7aa876fb76e5
+      internalID: -1106719245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_253
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1051
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd6aa528b457a446993e5183459e226
+      internalID: -328651663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_254
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1038
+        width: 74
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5bff027b5908c449147006b827c52d
+      internalID: -792116983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_255
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1046
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa7e2f6848642749b3341459ff6fc1c
+      internalID: 704783278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_256
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1046
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518520fe70af7384393dff338d8c2f80
+      internalID: -212280847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_257
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1049
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22f46ca3af7167459456eb469328395
+      internalID: -1853291165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_258
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1031
+        width: 95
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dcfe0c8d7512448bbec9ab5029bad7
+      internalID: -1638195167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_259
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1031
+        width: 95
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1947c2ce3787c6d42b0dcb21a31e3b55
+      internalID: -1801572050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_260
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1024
+        width: 99
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd3ecc1d0dc6124c945dbb8b74af967
+      internalID: -524493558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_261
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1020
+        width: 112
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b9c89d5607a0d42a2bac3cc4fc0692
+      internalID: 359018653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_262
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1011
+        width: 121
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f491ff530e9ca3a498f48d047d94001b
+      internalID: 152487009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_263
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 784
+        width: 514
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e1bfaf936f6a4aa8fbb3872aaa78b
+      internalID: 10846484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_264
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 899
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a24365eb750f1940923f5fab25b29c8
+      internalID: 740854011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_265
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 905
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8484d1e5c788994a9db4ff475c55887
+      internalID: 779241107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_266
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 902
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949b70b9cc140e346aad91be639abb8a
+      internalID: -1565622511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_267
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 902
+        width: 99
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773f0cd4a79951c45a8550dc72508e62
+      internalID: 1864691999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_268
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 907
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e978dc55eee6ce64a8579e00fc6ecb73
+      internalID: -1159915371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_269
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 907
+        width: 90
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f3aa0c05fcbac4c873b692e4b31823
+      internalID: 292928521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_270
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 894
+        width: 74
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af22bcff0ce7784885fa02104db2b76
+      internalID: -1782125216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_271
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 902
+        width: 75
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d09a7cdda1a941429419b3f212c5111
+      internalID: -1517409068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_272
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 902
+        width: 73
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd8528150a897f4797893441fa1a0c1
+      internalID: -1350963069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_273
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 905
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c74ed27a974d6b48bc80687a272bc26
+      internalID: 678992934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_274
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 885
+        width: 93
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a72cf840fb7f947a2ffb6a2943e230
+      internalID: 717598898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_275
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 878
+        width: 75
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63623d71897e4b4fa800e235193d1e1
+      internalID: -367159696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_276
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 895
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34d098d0da47048bfaacafd09dafe1
+      internalID: 1664329607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_277
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 896
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f30a18fa336d4f98b2775c6c4d682
+      internalID: -602848663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_278
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 896
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77590996c5209c546ae3924e189791df
+      internalID: -1721921944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_279
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 896
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9208c3a33d03bf4a8b1cadb2c46a901
+      internalID: 1808539754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_280
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 896
+        width: 75
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad93a4c50cbd23f40a0d2ccb83ff431c
+      internalID: 1186567098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_281
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 891
+        width: 86
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8edebe9789e6c945ac4700aa61902e4
+      internalID: 1987500163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_282
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 728
+        width: 81
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ccbea2acaad6f4ea5d1ee54bdf8dbd
+      internalID: 2012594787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_283
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 728
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880050aaa67cad54aa0b80d8d8ff8acf
+      internalID: -1065626627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_284
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 735
+        width: 127
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85995923ca9b3342b5905b57155b8df
+      internalID: -583018630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_285
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 732
+        width: 88
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7001b52d2d32646b48850dbe4d3b12
+      internalID: -405724948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_286
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 742
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feec14ce573783d4a8c41b982b31569e
+      internalID: -247913482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_287
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 741
+        width: 73
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a689a6be142e75c448fcb18f7610f5b2
+      internalID: 68264960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_288
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 762
+        width: 85
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bf6f75a4a229449ae3ef574e558da2
+      internalID: -38541383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_289
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 755
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25afbe22b40472944902a570f876b803
+      internalID: 159661738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_290
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 755
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b061ef8d21f47b54e920e693f723791b
+      internalID: 34826180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_291
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 735
+        width: 158
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6c8db19eebf4478bde8701ea1b166
+      internalID: 1656205461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_292
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 623
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b14f8d5698352e4cba36cb9fa03ed15
+      internalID: 2105375889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_293
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 620
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fe61a39eda3694c858a59335a11220
+      internalID: 527477345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_294
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 623
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7daa44cb2e57f4a91ef8018dd7e25b
+      internalID: 1272124264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_295
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 609
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd9fd0099da773498af29465122d764
+      internalID: -1458549962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_296
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 636
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f525879aec86a394cbbab965d0aaa51f
+      internalID: 820805260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_297
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 639
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e883133beafa2e4cbd0a3129dacbd4e
+      internalID: 1438888896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_298
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 623
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a1a935792fde748b5e2e9ba70f5ee5
+      internalID: 1673771906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_299
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 623
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6190ef1222044f54e83da501a57756ed
+      internalID: 751787968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_300
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 638
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f46fa8eec72d4ebba6e8fac82437e
+      internalID: 414509911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_301
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 636
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d10ef3d1b0aad44a88751cab7725e2d
+      internalID: -1301822675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_302
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 623
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baf8b40d2fe6404f8d3fb6b8d8a61c7
+      internalID: 1456716875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_303
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 623
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d008d9a6197574e87765a473d507c9
+      internalID: 770409960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_304
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 641
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd362c260f6cada4b954c34b779d8b65
+      internalID: 1922385825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_305
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 639
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbd551f0d016904ab60d1cbe4bfc6d6
+      internalID: 837261469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_306
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 649
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebeb343b72725b4c80477a6716c25b2
+      internalID: -1806982907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_307
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 640
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da36c7236107514cbf230ac4bdaf3fb
+      internalID: 950838538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_308
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 632
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dd5e94741751c40a1839b76abd4420
+      internalID: -75015064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_309
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 628
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9fc968ae7f9d246bcc60a8a15d8bb8
+      internalID: -471307943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_310
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 639
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2612e3c4c633ec042a154b8ff654a4ed
+      internalID: -322186653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_311
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 639
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7dfb0ba9f7c7044a360c25849ed854
+      internalID: 1346399504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_312
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 639
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0f11576a412d74ca37afae1ee9c2aa
+      internalID: 364133397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_313
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 639
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501d53b578002a47a5f8ab2b99b7bd3
+      internalID: 1594550082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_314
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 623
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4013a1b4e3741064f821d193b0eaff8b
+      internalID: 657612578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_315
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 623
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9454cea962e333c47a41cd8427c5626b
+      internalID: 1245157346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_316
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 623
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042f06b3e1cda842a4e1d7d5f5b466a
+      internalID: -532334549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_317
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 623
+        width: 79
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d815e0e87b08d84aab006b3225850e3
+      internalID: 1850965976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_318
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 623
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee309cbef60f18d4d9761f916a67a5b3
+      internalID: 2060098686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_319
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 623
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95c251f1948ea45ab4f30a11b7b0c6
+      internalID: -1773054051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_320
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 623
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8312f5d9f3c2b2644b686643d7a9f94c
+      internalID: 1706162878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_321
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 623
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2994e82c23a64409e9dc8158fd414d
+      internalID: 1185948788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_322
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 622
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde099bd2f4d17e46b6704eac032750f
+      internalID: -1560516781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_323
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 622
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fdb493e72bd5046815493afe333751
+      internalID: -1793384923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_324
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 622
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e3da1629aa0a547b6f00928e6c8fbc
+      internalID: 1907193380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_325
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 622
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9bbae00ffa00d4f8fe046438eb5b6b
+      internalID: -33596504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_326
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 622
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd25f908a8d2ef5468732faaebec2911
+      internalID: -1128630119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_327
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 622
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8ccaea6f038d64b9524a1c284afb90
+      internalID: -2106659503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_328
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 620
+        width: 74
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fc61cbf8c045944be33635d6eb379d
+      internalID: -1282977063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_329
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 620
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a46f3d94731e4f4fa37965119fc11ff
+      internalID: 611157704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_330
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 620
+        width: 74
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dcbf1477c11a744bf64825af8c6995
+      internalID: 1650224027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_331
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 609
+        width: 51
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f63a02c06d124943823f9663c120615
+      internalID: -424293112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_332
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 428
+        width: 103
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36733e444b3689e409a854b3e89f6756
+      internalID: 1321502933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_333
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 446
+        width: 119
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df56e9386c6e02440b94d71262396dbd
+      internalID: 1009759585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_334
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 439
+        width: 109
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44aa395db16ca4489b8bf3112f075cb
+      internalID: -2132295289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_335
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 429
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f37a8f6609d3344966fa40560813fc
+      internalID: 626871737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_336
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 441
+        width: 131
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d704f0f118a943e409ad605af2df0fc3
+      internalID: -1430389273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_337
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 446
+        width: 97
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7cb24a464d11a439509741cd56fcb7
+      internalID: -1358808124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_338
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 461
+        width: 119
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f9932bdb526704aac49cf020cf64e5
+      internalID: 397418308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_339
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 441
+        width: 116
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515ce98c0fb51dc4099f22b3a13c553c
+      internalID: -1951283645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_340
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 448
+        width: 134
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d085e4799edb1848829418cd6ce347b
+      internalID: -1264675487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_341
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 442
+        width: 143
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8931e06f1bf461f4385d3cff847912cf
+      internalID: 1058065078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_342
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 348
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5964161cb4180a84fa8649ea3e8862e7
+      internalID: 1083126138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_343
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 309
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a626446aefdb340959525f85e59a2a
+      internalID: -223493584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_344
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 84
+        width: 119
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d8cc7f2d316447a9532cdc69b8f19
+      internalID: -1509303854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_345
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 334
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa751d9e699cebc40bba0f413d9cc885
+      internalID: -1051133225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_346
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 116
+        width: 94
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2198cd623fb841a640f46f3763542
+      internalID: 164680795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_347
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 129
+        width: 76
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d649fb6be9d4943bdb69dc08f67840
+      internalID: 1358845880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_348
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 121
+        width: 152
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fddf2004c36174d9b6ed2b18929415
+      internalID: 612983288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_349
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 189
+        width: 220
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05122be0f17810944bb0385d8009b112
+      internalID: -1053541117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_350
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 107
+        width: 103
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e771d71d6d6d93f4d961f30ef117242d
+      internalID: -1899004394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_351
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 113
+        width: 118
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae3477f4ea608d4f836f5abeaae7a21
+      internalID: -1623142747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_352
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 110
+        width: 194
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b3639ecdd6fc48b5e9378e86a4f11
+      internalID: 1948830463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_353
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 146
+        width: 106
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb32c8ba3b110c4881132a056f10493
+      internalID: -1975581972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_354
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 150
+        width: 178
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8caa487907c3042882a01881b6f065
+      internalID: -375358583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_355
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 177
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c730542cd9807643a37d2a9c4512367
+      internalID: 113210922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_356
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 191
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587d9850d44ce4f42b52170e2d67c424
+      internalID: 854936452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_357
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 156
+        width: 131
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c421f4681b1cd6b45939d2240d0ad190
+      internalID: 1549425980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoor_tiles_358
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 179
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cec8ed8d0b00447a6bda5e290d90ea
+      internalID: 1041671246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Outdoor_tiles_346: 164680795
+      Outdoor_tiles_90: 365662783
+      Outdoor_tiles_326: -1128630119
+      Outdoor_tiles_97: 1728904621
+      Outdoor_tiles_195: -1278573962
+      Outdoor_tiles_18: 1092895454
+      Outdoor_tiles_350: -1899004394
+      Outdoor_tiles_100: 2018119387
+      Tree_0: -1638428691
+      Outdoor_tiles_218: 274273089
+      Outdoor_tiles_260: -524493558
+      Outdoor_tiles_254: -792116983
+      Outdoor_tiles_337: -1358808124
+      Outdoor_tiles_52: -151971092
+      Outdoor_tiles_356: 854936452
+      Outdoor_tiles_308: -75015064
+      Outdoor_tiles_334: -2132295289
+      Outdoor_tiles_299: 751787968
+      Outdoor_tiles_41: 449438571
+      Outdoor_tiles_2: 1973527787
+      Outdoor_tiles_35: 757177002
+      Outdoor_tiles_221: -75702964
+      Outdoor_tiles_166: 630140439
+      Outdoor_tiles_146: 646133573
+      Outdoor_tiles_111: 1976859539
+      Outdoor_tiles_118: -1911891705
+      Outdoor_tiles_236: -1670321323
+      Outdoor_tiles_96: 535421446
+      Outdoor_tiles_253: -328651663
+      Outdoor_tiles_268: -1159915371
+      Outdoor_tiles_168: 399134454
+      Outdoor_tiles_139: -1787844707
+      Outdoor_tiles_215: 1435624439
+      Outdoor_tiles_223: 1830253982
+      Outdoor_tiles_164: -1580929985
+      Outdoor_tiles_137: 468216643
+      Outdoor_tiles_135: -291367463
+      Outdoor_tiles_267: 1864691999
+      Outdoor_tiles_122: -1532479981
+      Outdoor_tiles_106: 1450013699
+      Outdoor_tiles_10: -1781215321
+      Outdoor_tiles_127: 496210804
+      Outdoor_tiles_200: 509318479
+      Outdoor_tiles_211: 330104115
+      Outdoor_tiles_68: -1695870028
+      Outdoor_tiles_61: 2002778708
+      Outdoor_tiles_312: 364133397
+      House_0: 1756774906
+      Grass_0: -1913692657
+      Outdoor_tiles_263: 10846484
+      Outdoor_tiles_66: 687488331
+      Outdoor_tiles_40: 725558963
+      Outdoor_tiles_125: 1386717726
+      Outdoor_tiles_134: -802481721
+      Outdoor_tiles_358: 1041671246
+      Outdoor_tiles_56: 1816845460
+      Outdoor_tiles_342: 1083126138
+      Axe_0: 1749249690
+      Outdoor_tiles_321: 1185948788
+      Outdoor_tiles_295: -1458549962
+      Outdoor_tiles_99: 915385793
+      Outdoor_tiles_174: 473058794
+      Outdoor_tiles_85: -1820655559
+      Outdoor_tiles_269: 292928521
+      Outdoor_tiles_110: 392420284
+      Outdoor_tiles_190: 1491621578
+      Outdoor_tiles_94: 594520661
+      Outdoor_tiles_144: 409781725
+      Outdoor_tiles_7: 1596915852
+      Outdoor_tiles_333: 1009759585
+      Outdoor_tiles_157: -268871074
+      Outdoor_tiles_240: 2047641436
+      Outdoor_tiles_300: 414509911
+      Outdoor_tiles_288: -38541383
+      Outdoor_tiles_119: -30422065
+      Outdoor_tiles_286: -247913482
+      Outdoor_tiles_138: -523049901
+      Outdoor_tiles_133: 1241408132
+      Outdoor_tiles_53: 159553026
+      Outdoor_tiles_149: -1097730931
+      Outdoor_tiles_183: -1624034424
+      Outdoor_tiles_82: 107482910
+      Outdoor_tiles_341: 1058065078
+      Outdoor_tiles_88: -1511432727
+      Outdoor_tiles_332: 1321502933
+      Outdoor_tiles_245: -899900942
+      Outdoor_tiles_229: 1343795308
+      Outdoor_tiles_210: 414070190
+      Outdoor_tiles_169: 1295683115
+      Outdoor_tiles_23: 392157639
+      Outdoor_tiles_24: 271236772
+      Outdoor_tiles_145: 1323983015
+      Outdoor_tiles_243: -43230001
+      Outdoor_tiles_124: 990963409
+      Outdoor_tiles_26: 455478202
+      Outdoor_tiles_353: -1975581972
+      Outdoor_tiles_93: 45712465
+      Outdoor_tiles_259: -1801572050
+      Outdoor_tiles_130: -1112482056
+      Outdoor_tiles_347: 1358845880
+      Outdoor_tiles_92: 842989934
+      Outdoor_tiles_281: 1987500163
+      Outdoor_tiles_19: -2004539049
+      Outdoor_tiles_320: 1706162878
+      Outdoor_tiles_284: -583018630
+      Outdoor_tiles_226: 105396223
+      Outdoor_tiles_241: -681435593
+      Outdoor_tiles_216: -264661317
+      Outdoor_tiles_136: 1286576738
+      Outdoor_tiles_349: -1053541117
+      Outdoor_tiles_188: -2085338569
+      Outdoor_tiles_121: 1900106765
+      Outdoor_tiles_79: 432136389
+      Outdoor_tiles_199: 1775648460
+      Outdoor_tiles_163: 617927049
+      Outdoor_tiles_279: 1808539754
+      Outdoor_tiles_154: -1502987064
+      Outdoor_tiles_324: 1907193380
+      Outdoor_tiles_187: 1086469163
+      Outdoor_tiles_86: 1028243950
+      Outdoor_tiles_161: 408453111
+      Outdoor_tiles_202: -756133578
+      Outdoor_tiles_153: 630440813
+      Outdoor_tiles_108: 1341549911
+      Outdoor_tiles_304: 1922385825
+      Outdoor_tiles_49: -1425329712
+      Outdoor_tiles_128: -527818318
+      Outdoor_tiles_45: -843666518
+      Outdoor_tiles_205: -331179124
+      Outdoor_tiles_208: -1167907846
+      Outdoor_tiles_242: 2070828470
+      Outdoor_tiles_185: 1304178620
+      Outdoor_tiles_271: -1517409068
+      Outdoor_tiles_44: -173391184
+      Outdoor_tiles_152: 207201903
+      Outdoor_tiles_83: -775271002
+      Outdoor_tiles_331: -424293112
+      Outdoor_tiles_148: -1675101208
+      Outdoor_tiles_64: -1204089294
+      Outdoor_tiles_255: 704783278
+      Outdoor_tiles_47: 185325117
+      Outdoor_tiles_316: -532334549
+      Outdoor_tiles_30: -1557562856
+      Outdoor_tiles_116: -703985831
+      Outdoor_tiles_143: -949501324
+      Outdoor_tiles_219: -1970453210
+      Outdoor_tiles_67: -839899485
+      Outdoor_tiles_258: -1638195167
+      Outdoor_tiles_203: -991597151
+      Outdoor_tiles_21: -488044071
+      Outdoor_tiles_303: 770409960
+      Outdoor_tiles_220: -1970981115
+      Outdoor_tiles_76: -1640767670
+      Outdoor_tiles_239: 217193778
+      Outdoor_tiles_95: 396616594
+      Outdoor_tiles_246: -1434456892
+      Outdoor_tiles_28: -167596974
+      Outdoor_tiles_38: -516073942
+      Outdoor_tiles_305: 837261469
+      Outdoor_tiles_176: -100741349
+      Outdoor_tiles_142: 218522422
+      Outdoor_tiles_330: 1650224027
+      Outdoor_tiles_274: 717598898
+      Outdoor_tiles_129: -319389959
+      Outdoor_tiles_71: -1788755191
+      Outdoor_tiles_277: -602848663
+      Outdoor_tiles_58: 545248432
+      Outdoor_tiles_167: 2096900511
+      Outdoor_tiles_340: -1264675487
+      Outdoor_tiles_140: -378665939
+      Outdoor_tiles_354: -375358583
+      Outdoor_tiles_63: -810964148
+      Outdoor_tiles_178: -322790603
+      Outdoor_tiles_197: 908187728
+      Outdoor_tiles_209: 795672052
+      Outdoor_tiles_132: -1994997815
+      Outdoor_tiles_72: -1232211365
+      Box_0: 705287837
+      Outdoor_tiles_348: 612983288
+      Outdoor_tiles_173: 72958730
+      Outdoor_tiles_232: -1339902974
+      Outdoor_tiles_298: 1673771906
+      Outdoor_tiles_252: -1106719245
+      Outdoor_tiles_262: 152487009
+      Outdoor_tiles_70: -1419017943
+      Outdoor_tiles_181: 1758135057
+      Outdoor_tiles_46: 809090636
+      Outdoor_tiles_54: -160158068
+      Outdoor_tiles_345: -1051133225
+      Outdoor_tiles_57: 623379525
+      Outdoor_tiles_293: 527477345
+      Outdoor_tiles_198: 287658184
+      Outdoor_tiles_175: 358077466
+      Outdoor_tiles_204: -1503570832
+      Outdoor_tiles_233: -1505864752
+      Outdoor_tiles_344: -1509303854
+      Outdoor_tiles_228: -1662844567
+      Outdoor_tiles_112: -1154829916
+      Outdoor_tiles_77: -613802756
+      Outdoor_tiles_323: -1793384923
+      Outdoor_tiles_29: 1581579822
+      Outdoor_tiles_43: 2136125084
+      Outdoor_tiles_179: -2016229728
+      Outdoor_tiles_182: -477214197
+      Outdoor_tiles_296: 820805260
+      Outdoor_tiles_170: 174944743
+      Outdoor_tiles_27: 1098218942
+      Outdoor_tiles_206: -844982595
+      Outdoor_tiles_89: 974303719
+      Outdoor_tiles_156: -2076836901
+      Outdoor_tiles_285: -405724948
+      Outdoor_tiles_0: 379164218
+      Outdoor_tiles_266: -1565622511
+      Outdoor_tiles_311: 1346399504
+      Outdoor_tiles_275: -367159696
+      Outdoor_tiles_165: -755437067
+      Outdoor_tiles_16: 661868280
+      Outdoor_tiles_105: -311262465
+      Outdoor_tiles_131: 257583655
+      Outdoor_tiles_101: -523051962
+      Outdoor_tiles_322: -1560516781
+      Outdoor_tiles_327: -2106659503
+      Outdoor_tiles_214: -924248870
+      Outdoor_tiles_193: -2006079236
+      Outdoor_tiles_217: 468403984
+      Outdoor_tiles_287: 68264960
+      Outdoor_tiles_306: -1806982907
+      Outdoor_tiles_5: -1486789781
+      Outdoor_tiles_73: -1801535371
+      Outdoor_tiles_8: 183425108
+      Outdoor_tiles_234: 1386862048
+      Outdoor_tiles_103: 798062249
+      Outdoor_tiles_290: 34826180
+      Outdoor_tiles_65: 1853884591
+      Outdoor_tiles_78: 929383042
+      Outdoor_tiles_276: 1664329607
+      Outdoor_tiles_328: -1282977063
+      Outdoor_tiles_69: 562334014
+      Outdoor_tiles_257: -1853291165
+      Outdoor_tiles_191: 1553862043
+      Outdoor_tiles_249: -393897880
+      Log&Axe_0: 1499761840
+      Outdoor_tiles_114: -1513511119
+      Outdoor_tiles_60: -568391495
+      Outdoor_tiles_159: 1754416677
+      Outdoor_tiles_81: 1371506345
+      Outdoor_tiles_207: -553472289
+      Outdoor_tiles_15: -946127592
+      Outdoor_tiles_325: -33596504
+      Outdoor_tiles_251: -1659974943
+      Outdoor_tiles_98: -733378590
+      Outdoor_tiles_155: 520249339
+      Outdoor_tiles_309: -471307943
+      Outdoor_tiles_227: -2125612997
+      Outdoor_tiles_51: -1436891590
+      Outdoor_tiles_37: -1231795613
+      Outdoor_tiles_278: -1721921944
+      Outdoor_tiles_343: -223493584
+      Outdoor_tiles_352: 1948830463
+      Outdoor_tiles_120: 2127915600
+      Outdoor_tiles_12: -1140408336
+      Outdoor_tiles_196: -1800061337
+      Outdoor_tiles_186: 1208835803
+      Outdoor_tiles_109: 1979299635
+      Outdoor_tiles_172: 1862869970
+      Outdoor_tiles_247: 205457379
+      Outdoor_tiles_314: 657612578
+      Outdoor_tiles_224: -184155459
+      Outdoor_tiles_150: -1428607438
+      Outdoor_tiles_283: -1065626627
+      Outdoor_tiles_74: -836295763
+      Outdoor_tiles_192: -1129330944
+      Outdoor_tiles_9: 388738278
+      Outdoor_tiles_307: 950838538
+      Outdoor_tiles_177: -1527758151
+      Outdoor_tiles_261: 359018653
+      Outdoor_tiles_162: -1473516599
+      Outdoor_tiles_291: 1656205461
+      Outdoor_tiles_75: 1849604502
+      Outdoor_tiles_107: -1875059342
+      Outdoor_tiles_20: -1194111024
+      Outdoor_tiles_302: 1456716875
+      Outdoor_tiles_357: 1549425980
+      Outdoor_tiles_231: -974139902
+      Bush_0: 973235211
+      Outdoor_tiles_213: 1489160810
+      Outdoor_tiles_48: -1119276005
+      Outdoor_tiles_319: -1773054051
+      Outdoor_tiles_184: -1862750951
+      Log_0: 384068656
+      Outdoor_tiles_264: 740854011
+      Outdoor_tiles_265: 779241107
+      Outdoor_tiles_22: 1817464601
+      Outdoor_tiles_151: -360066858
+      Outdoor_tiles_6: 901127072
+      Outdoor_tiles_59: -972506150
+      Outdoor_tiles_194: 78395402
+      Outdoor_tiles_117: 1355774223
+      Outdoor_tiles_338: 397418308
+      Outdoor_tiles_238: 587927993
+      Outdoor_tiles_25: -166868132
+      Outdoor_tiles_317: 1850965976
+      Outdoor_tiles_313: 1594550082
+      Outdoor_tiles_17: 858058708
+      Outdoor_tiles_318: 2060098686
+      Outdoor_tiles_244: 1129959783
+      Outdoor_tiles_335: 626871737
+      Outdoor_tiles_14: -2070136251
+      Outdoor_tiles_42: -1166904422
+      Outdoor_tiles_36: 903451264
+      Outdoor_tiles_31: 767814895
+      Outdoor_tiles_201: -347721920
+      Outdoor_tiles_237: 207456020
+      Outdoor_tiles_147: 990877238
+      Outdoor_tiles_115: 696045479
+      Outdoor_tiles_282: 2012594787
+      Outdoor_tiles_294: 1272124264
+      Outdoor_tiles_292: 2105375889
+      Outdoor_tiles_102: -1790683845
+      Outdoor_tiles_230: 2015108942
+      Outdoor_tiles_189: -595799242
+      Outdoor_tiles_113: -1521064878
+      Outdoor_tiles_336: -1430389273
+      Outdoor_tiles_171: -2099713062
+      Outdoor_tiles_123: -1728861844
+      Outdoor_tiles_351: -1623142747
+      Outdoor_tiles_3: -1727868639
+      Outdoor_tiles_329: 611157704
+      Outdoor_tiles_235: -1082475291
+      Outdoor_tiles_280: 1186567098
+      Outdoor_tiles_301: -1301822675
+      Outdoor_tiles_4: -174739974
+      Outdoor_tiles_32: 1539884374
+      Outdoor_tiles_160: 1139499583
+      Outdoor_tiles_272: -1350963069
+      Outdoor_tiles_310: -322186653
+      Outdoor_tiles_158: -127635308
+      Outdoor_tiles_355: 113210922
+      Outdoor_tiles_39: 493972459
+      Outdoor_tiles_62: -987053024
+      Outdoor_tiles_11: 1912391557
+      Outdoor_tiles_141: 321405636
+      Outdoor_tiles_222: 1868234895
+      Outdoor_tiles_126: -550774717
+      Outdoor_tiles_212: -875924699
+      Outdoor_tiles_104: 543374784
+      Outdoor_tiles_339: -1951283645
+      Outdoor_tiles_273: 678992934
+      Outdoor_tiles_256: -212280847
+      Outdoor_tiles_180: 645890165
+      Outdoor_tiles_33: -654166746
+      Outdoor_tiles_315: 1245157346
+      Outdoor_tiles_34: 101519344
+      Outdoor_tiles_250: -1386514623
+      Outdoor_tiles_55: 381296276
+      Outdoor_tiles_297: 1438888896
+      Outdoor_tiles_270: -1782125216
+      Outdoor_tiles_13: -1891664459
+      Outdoor_tiles_289: 159661738
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
