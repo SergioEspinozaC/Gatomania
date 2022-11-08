@@ -13,15 +13,21 @@ public class Player : MonoBehaviour
     private Rigidbody2D rigidBody;
     private GameObject insideHouse;
     private GameObject axe;
+    private float movimientoX;
+    private float movimientoY;
+    private Animator animator;
+
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
 
     }
 
     private void Update()
     {
+        /*
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
 
@@ -33,6 +39,19 @@ public class Player : MonoBehaviour
         {
             direction.x = 0;
         }
+*/
+
+        movimientoX = Input.GetAxisRaw("Horizontal");
+        movimientoY = Input.GetAxisRaw("Vertical");
+        animator.SetFloat("MovimientoX", movimientoX);
+        animator.SetFloat("MovimientoY", movimientoY);
+        if (movimientoX != 0 || movimientoY != 0)
+        {
+            animator.SetFloat("UltimoX", movimientoX);
+            animator.SetFloat("UltimoY", movimientoY);
+        }
+
+        direction = new Vector2(movimientoX, movimientoY).normalized;
 
         if (Input.GetKeyDown(KeyCode.Z) && insideHouse)
         {
@@ -67,15 +86,15 @@ public class Player : MonoBehaviour
             }
         }
 
-        if(collider.name == "Axe")
+        if (collider.name == "Axe")
         {
-            
+
             tool = true;
             axe = collider.gameObject;
             Debug.Log("tiene el hacha : " + tool + axe);
 
         }
-        
+
 
     }
 
@@ -86,14 +105,14 @@ public class Player : MonoBehaviour
         {
             insideHouse = null;
         }
-         if(collider.name == "Axe")
+        if (collider.name == "Axe")
         {
-            
+
             tool = false;
             axe = null;
             Debug.Log("NO tiene el hacha : " + tool + axe);
 
-        }
-    }
+        }
+    }
 
 }
