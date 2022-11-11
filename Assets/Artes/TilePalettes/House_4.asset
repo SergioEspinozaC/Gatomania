@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: dec3n47-557e0c83-e547-4e4e-a760-3a378e057090_0
+  m_Name: House_4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 53939993, guid: f45eb84e7b4d8e24eb778ffa931a4008, type: 3}
+  m_Sprite: {fileID: 1864691999, guid: d057c431ba24dd44db0174b5fd31ed45, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
