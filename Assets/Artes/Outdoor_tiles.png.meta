@@ -1052,7 +1052,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tree_3
+      name: Tree_3
       rect:
         serializedVersion: 2
         x: 1363
@@ -1178,7 +1178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outdoor_tiles_51
+      name: Tree_4
       rect:
         serializedVersion: 2
         x: 259
@@ -2165,27 +2165,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outdoor_tiles_99
-      rect:
-        serializedVersion: 2
-        x: 479
-        y: 2016
-        width: 50
-        height: 97
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6135aeb16c0da1344a945476d6db586f
-      internalID: 915385793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Outdoor_tiles_100
       rect:
         serializedVersion: 2
@@ -2588,8 +2567,8 @@ TextureImporter:
       name: Outdoor_tiles_121
       rect:
         serializedVersion: 2
-        x: 287
-        y: 1680
+        x: 303
+        y: 1678
         width: 898
         height: 209
       alignment: 0
@@ -3467,7 +3446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant_0
+      name: Plant_0
       rect:
         serializedVersion: 2
         x: 1409
@@ -3530,7 +3509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant_1
+      name: Plant_1
       rect:
         serializedVersion: 2
         x: 1409
@@ -3698,7 +3677,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sunflower_0
+      name: Sunflower_0
       rect:
         serializedVersion: 2
         x: 1457
@@ -4076,27 +4055,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outdoor_tiles_196
-      rect:
-        serializedVersion: 2
-        x: 1074
-        y: 1409
-        width: 154
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e8aeecd488caf248a62f9584a87d46f
-      internalID: -1800061337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Outdoor_tiles_197
       rect:
         serializedVersion: 2
@@ -4307,12 +4265,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outdoor_tiles_207
+      name: Fence_3
       rect:
         serializedVersion: 2
         x: 1239
         y: 1439
-        width: 22
+        width: 8
         height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7583,7 +7541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pot_0
+      name: Pot_0
       rect:
         serializedVersion: 2
         x: 1313
@@ -7604,7 +7562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sunflower_1
+      name: Sunflower_1
       rect:
         serializedVersion: 2
         x: 1408
@@ -7625,7 +7583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pot_1
+      name: Pot_1
       rect:
         serializedVersion: 2
         x: 1313
@@ -7856,13 +7814,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pot_3
+      name: Pot_3
       rect:
         serializedVersion: 2
         x: 1378
-        y: 1633
-        width: 12
-        height: 19
+        y: 1632
+        width: 14
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7877,13 +7835,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pot_4
+      name: Pot_4
       rect:
         serializedVersion: 2
         x: 1393
         y: 1632
         width: 14
-        height: 21
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7924,10 +7882,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1393
         y: 1391
-        width: 14
+        width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7948,7 +7906,7 @@ TextureImporter:
         width: 16
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7969,7 +7927,7 @@ TextureImporter:
         width: 16
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7990,7 +7948,7 @@ TextureImporter:
         width: 16
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7998,6 +7956,69 @@ TextureImporter:
       bones: []
       spriteID: a67b1edb0f450b54fa416dba62489448
       internalID: -2136463705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2171
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2106f7e5fd2440a8303cf1a743158
+      internalID: -791468104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mail_0
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1489
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e48cb1458a65f4bb99d4e7fd4eb7bc
+      internalID: 621609512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_2
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1424
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec29e5546f18d2f4a81b173b2beb1236
+      internalID: 2043526192
       vertices: []
       indices: 
       edges: []
@@ -8019,7 +8040,6 @@ TextureImporter:
       Outdoor_tiles_97: 1728904621
       Outdoor_tiles_195: -1278573962
       Outdoor_tiles_18: 1092895454
-      pot_3: 1195003658
       Outdoor_tiles_350: -1899004394
       Outdoor_tiles_100: 2018119387
       Tree_0: -1638428691
@@ -8031,12 +8051,14 @@ TextureImporter:
       Outdoor_tiles_337: -1358808124
       Outdoor_tiles_52: -151971092
       Outdoor_tiles_356: 854936452
+      Fence_2: 2043526192
       Outdoor_tiles_308: -75015064
       Outdoor_tiles_334: -2132295289
       Outdoor_tiles_299: 751787968
       Outdoor_tiles_41: 449438571
       Outdoor_tiles_2: 1973527787
       Outdoor_tiles_35: 757177002
+      Plant_1: 2096900511
       Outdoor_tiles_221: -75702964
       Outdoor_tiles_166: 630140439
       Outdoor_tiles_146: 646133573
@@ -8111,6 +8133,7 @@ TextureImporter:
       Outdoor_tiles_169: 1295683115
       Outdoor_tiles_243: -43230001
       Outdoor_tiles_124: 990963409
+      Pot_3: 1195003658
       Outdoor_tiles_26: 455478202
       Outdoor_tiles_353: -1975581972
       Outdoor_tiles_93: 45712465
@@ -8121,7 +8144,6 @@ TextureImporter:
       Lamp_3: 330104115
       Statue_1: 1083126138
       Outdoor_tiles_19: -2004539049
-      pot_0: 1068418714
       Outdoor_tiles_320: 1706162878
       Outdoor_tiles_284: -583018630
       Outdoor_tiles_241: -681435593
@@ -8134,6 +8156,7 @@ TextureImporter:
       Outdoor_tiles_199: 1775648460
       Outdoor_tiles_163: 617927049
       Outdoor_tiles_279: 1808539754
+      Sunflower_0: -322790603
       Outdoor_tiles_154: -1502987064
       Outdoor_tiles_324: 1907193380
       Outdoor_tiles_187: 1086469163
@@ -8142,7 +8165,6 @@ TextureImporter:
       Outdoor_tiles_161: 408453111
       Outdoor_tiles_202: -756133578
       Outdoor_tiles_153: 630440813
-      plant_0: -1580929985
       Outdoor_tiles_108: 1341549911
       Outdoor_tiles_304: 1922385825
       Outdoor_tiles_49: -1425329712
@@ -8158,7 +8180,6 @@ TextureImporter:
       plant_4: -704506733
       Outdoor_tiles_83: -775271002
       Outdoor_tiles_331: -424293112
-      sunflower_1: -1114541149
       Outdoor_tiles_148: -1675101208
       Outdoor_tiles_64: -1204089294
       Outdoor_tiles_255: 704783278
@@ -8168,10 +8189,9 @@ TextureImporter:
       Outdoor_tiles_30: -1557562856
       Outdoor_tiles_116: -703985831
       Outdoor_tiles_143: -949501324
-      sunflower_0: -322790603
       Outdoor_tiles_219: -1970453210
-      Outdoor_tiles_67: -839899485
       Statue_0: 287658184
+      Outdoor_tiles_67: -839899485
       Outdoor_tiles_258: -1638195167
       Outdoor_tiles_203: -991597151
       Outdoor_tiles_21: -488044071
@@ -8180,6 +8200,7 @@ TextureImporter:
       Outdoor_tiles_220: -1970981115
       Outdoor_tiles_76: -1640767670
       Outdoor_tiles_239: 217193778
+      Log_1: -791468104
       Outdoor_tiles_246: -1434456892
       Outdoor_tiles_28: -167596974
       Outdoor_tiles_38: -516073942
@@ -8187,6 +8208,7 @@ TextureImporter:
       House_8: 678992934
       Outdoor_tiles_176: -100741349
       Outdoor_tiles_142: 218522422
+      Pot_1: -1489767969
       Outdoor_tiles_330: 1650224027
       Chair_1: -660295054
       Outdoor_tiles_274: 717598898
@@ -8214,6 +8236,7 @@ TextureImporter:
       Roof_0: 414070190
       Outdoor_tiles_262: 152487009
       Outdoor_tiles_70: -1419017943
+      Tree_4: -1436891590
       Outdoor_tiles_181: 1758135057
       Outdoor_tiles_46: 809090636
       Outdoor_tiles_54: -160158068
@@ -8225,7 +8248,6 @@ TextureImporter:
       Outdoor_tiles_233: -1505864752
       Outdoor_tiles_344: -1509303854
       Outdoor_tiles_228: -1662844567
-      tree_3: -843666518
       Outdoor_tiles_112: -1154829916
       Outdoor_tiles_77: -613802756
       Outdoor_tiles_323: -1793384923
@@ -8247,7 +8269,6 @@ TextureImporter:
       Outdoor_tiles_165: -755437067
       Outdoor_tiles_16: 661868280
       Outdoor_tiles_105: -311262465
-      pot_1: -1489767969
       House_4: 1864691999
       Yellow_Path_0: -1915869922
       Outdoor_tiles_101: -523051962
@@ -8269,6 +8290,7 @@ TextureImporter:
       Outdoor_tiles_78: 929383042
       House_3: 779241107
       Outdoor_tiles_328: -1282977063
+      Tree_3: -843666518
       Outdoor_tiles_69: 562334014
       Outdoor_tiles_276: 1664329607
       Outdoor_tiles_257: -1853291165
@@ -8281,23 +8303,20 @@ TextureImporter:
       Outdoor_tiles_159: 1754416677
       Outdoor_tiles_81: 1371506345
       House_6: -212280847
-      Outdoor_tiles_207: -553472289
       Outdoor_tiles_325: -33596504
       Outdoor_tiles_15: -946127592
       tree_1: 379164218
       Outdoor_tiles_155: 520249339
       Outdoor_tiles_309: -471307943
-      Outdoor_tiles_51: -1436891590
       Outdoor_tiles_37: -1231795613
       Outdoor_tiles_278: -1721921944
       Outdoor_tiles_343: -223493584
       Outdoor_tiles_352: 1948830463
-      pot_4: -130280059
       Outdoor_tiles_120: 2127915600
       Outdoor_tiles_12: -1140408336
       Outdoor_tiles_196: -1800061337
+      Mail_0: 621609512
       Outdoor_tiles_186: 1208835803
-      plant_1: 2096900511
       Entrance_0: -2125612997
       Outdoor_tiles_109: 1979299635
       Outdoor_tiles_172: 1862869970
@@ -8321,6 +8340,7 @@ TextureImporter:
       Outdoor_tiles_231: -974139902
       Bush_0: 973235211
       Outdoor_tiles_48: -1119276005
+      Pot_4: -130280059
       Outdoor_tiles_319: -1773054051
       Log_0: 384068656
       Outdoor_tiles_264: 740854011
@@ -8328,10 +8348,11 @@ TextureImporter:
       Outdoor_tiles_6: 901127072
       Outdoor_tiles_59: -972506150
       Outdoor_tiles_194: 78395402
-      Stone_Path_0: 1165316314
+      Fence_3: -553472289
       Outdoor_tiles_117: 1355774223
-      Outdoor_tiles_338: 397418308
+      Stone_Path_0: 1165316314
       House_5: -328651663
+      Outdoor_tiles_338: 397418308
       Outdoor_tiles_238: 587927993
       Outdoor_tiles_25: -166868132
       Outdoor_tiles_317: 1850965976
@@ -8353,6 +8374,7 @@ TextureImporter:
       Outdoor_tiles_282: 2012594787
       Outdoor_tiles_294: 1272124264
       Outdoor_tiles_292: 2105375889
+      Plant_0: -1580929985
       Outdoor_tiles_102: -1790683845
       Outdoor_tiles_230: 2015108942
       Outdoor_tiles_189: -595799242
@@ -8385,6 +8407,8 @@ TextureImporter:
       Outdoor_tiles_104: 543374784
       Sign_0: -1862750951
       Outdoor_tiles_339: -1951283645
+      Sunflower_1: -1114541149
+      Pot_0: 1068418714
       Outdoor_tiles_180: 645890165
       Outdoor_tiles_33: -654166746
       Outdoor_tiles_315: 1245157346

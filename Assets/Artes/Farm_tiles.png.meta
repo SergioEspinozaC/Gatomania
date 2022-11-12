@@ -149,13 +149,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farm_tiles_1
+      name: Farm_house_2
       rect:
         serializedVersion: 2
         x: 128
         y: 384
         width: 80
-        height: 152
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -705,6 +705,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Farm_house_2: -1125055299
       Farm_tiles_23: -1963812000
       Farm_tiles_11: -570666654
       Farm_sign_0: -1975019429
@@ -719,7 +720,6 @@ TextureImporter:
       Farm_tiles_8: -671113672
       Farm_tiles_14: 1461259766
       Farm_tiles_20: 1130715517
-      Farm_tiles_1: -1125055299
       Farm_tiles_3: -334147021
       Farm_light_0: 159090290
       Farm_tiles_18: -1652194252
