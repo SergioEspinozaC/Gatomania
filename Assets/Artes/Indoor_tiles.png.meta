@@ -136,7 +136,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_6
+      name: Sink_0
       rect:
         serializedVersion: 2
         x: 833
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_10
+      name: Pokeball_0
       rect:
         serializedVersion: 2
         x: 899
@@ -317,13 +317,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_17
+      name: Plant_15
       rect:
         serializedVersion: 2
-        x: 896
+        x: 912
         y: 880
-        width: 48
-        height: 32
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,27 +333,6 @@ TextureImporter:
       bones: []
       spriteID: 686f5e754f5eef3419d9d1c5c95b11a8
       internalID: 1093488667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sofa_0
-      rect:
-        serializedVersion: 2
-        x: 735
-        y: 816
-        width: 48
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25f8869956330fb408435696044dc7c4
-      internalID: -1712324633
       vertices: []
       indices: 
       edges: []
@@ -485,7 +464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_29
+      name: Nightstand_0
       rect:
         serializedVersion: 2
         x: 708
@@ -506,7 +485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_30
+      name: Window_0
       rect:
         serializedVersion: 2
         x: 801
@@ -527,13 +506,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_31
+      name: Frame_0
       rect:
         serializedVersion: 2
-        x: 832
+        x: 880
         y: 841
-        width: 112
-        height: 22
+        width: 32
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,7 +527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_32
+      name: Furniture_0
       rect:
         serializedVersion: 2
         x: 560
@@ -632,7 +611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_36
+      name: Setup_0
       rect:
         serializedVersion: 2
         x: 898
@@ -737,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_42
+      name: Sink_1
       rect:
         serializedVersion: 2
         x: 690
@@ -879,48 +858,6 @@ TextureImporter:
       bones: []
       spriteID: 6534df5b16be1fa4690d70e85d0e3ded
       internalID: 2011583924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sofa_1
-      rect:
-        serializedVersion: 2
-        x: 747
-        y: 720
-        width: 19
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e61870999fda70742b9fde0bd474c927
-      internalID: -680199024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sofa_2
-      rect:
-        serializedVersion: 2
-        x: 770
-        y: 720
-        width: 19
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15d6786daa2bc7f4694d9645129dfe66
-      internalID: -1069824360
       vertices: []
       indices: 
       edges: []
@@ -1346,7 +1283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Indoor_tiles_72
+      name: Bed_1
       rect:
         serializedVersion: 2
         x: 723
@@ -2131,7 +2068,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2152,7 +2089,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2173,7 +2110,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2194,7 +2131,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2215,7 +2152,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2236,7 +2173,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2257,7 +2194,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2278,7 +2215,7 @@ TextureImporter:
         width: 64
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2299,7 +2236,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2320,7 +2257,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2341,7 +2278,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2362,7 +2299,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2383,7 +2320,7 @@ TextureImporter:
         width: 33
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2404,7 +2341,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2412,6 +2349,111 @@ TextureImporter:
       bones: []
       spriteID: 293d34092d1637d40bc6d69f901ea30c
       internalID: 1379372481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sofa_0
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 912
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c89122dbcf25c47a55d4a350e45aa8
+      internalID: -1712324633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sofa_1
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e1e10805c3b848bd92e64604e2c6b
+      internalID: -680199024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sofa_2
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05416f7272125245a615c46b66ae08d
+      internalID: -1069824360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed_0
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07711eef9a4665e4f80676cb6252ebfd
+      internalID: 2931172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fridge_1
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 896
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa530b9ae2d8727479f6b8a597df6dff
+      internalID: -129289825
       vertices: []
       indices: 
       edges: []
@@ -2429,7 +2471,6 @@ TextureImporter:
     nameFileIdTable:
       Indoor_tiles_66: 1263886112
       Indoor_tiles_78: -742281423
-      Indoor_tiles_17: 1093488667
       Indoor_tiles_97: -137355452
       Indoor_tiles_35: -1907086122
       Indoor_tiles_89: 1964329436
@@ -2438,25 +2479,24 @@ TextureImporter:
       Indoor_tiles_2: 1414180075
       Indoor_tiles_61: 1161798392
       Floor_4: 1718051739
+      Furniture_0: 1360965369
       Indoor_tiles_107: 820440556
       Indoor_tiles_33: -67825833
       Indoor_tiles_8: -1196459347
       Indoor_tiles_21: 1165843792
       Stairs_0: 385551159
       Indoor_tiles_57: -1487195267
+      Sink_1: -1842884672
       Indoor_tiles_46: 1940427464
       Indoor_tiles_28: -1998729231
       Indoor_tiles_63: -1877095443
       Indoor_tiles_19: -1863576953
-      Indoor_tiles_36: -475442730
       Clock_0: -1464719771
       Indoor_tiles_48: 2011583924
       Indoor_tiles_84: 905538022
       Sofa_1: -680199024
-      Indoor_tiles_6: 983061561
       Indoor_tiles_77: -1618073699
       Indoor_tiles_82: -89497720
-      Indoor_tiles_10: 2011009682
       Indoor_tiles_75: 1302195454
       Indoor_tiles_59: -2127249232
       Indoor_tiles_20: 1417121355
@@ -2466,10 +2506,8 @@ TextureImporter:
       Indoor_tiles_3: -1829087338
       Indoor_tiles_39: -311739206
       Indoor_tiles_58: 909362350
-      Indoor_tiles_31: 627076657
       Indoor_tiles_45: -2017887734
       Sofa_0: -1712324633
-      Indoor_tiles_72: 1907899255
       Indoor_tiles_87: 240211323
       Indoor_tiles_16: -1405475043
       Indoor_tiles_53: -936667478
@@ -2478,20 +2516,22 @@ TextureImporter:
       Indoor_tiles_74: -295966519
       Indoor_tiles_60: 830867531
       Indoor_tiles_94: -2050534946
+      Pokeball_0: 2011009682
       Floor_5: -471454950
-      Indoor_tiles_32: 1360965369
       Indoor_tiles_83: -1026221086
       Indoor_tiles_76: -1414857458
+      Fridge_1: -129289825
       Indoor_floor_0: -1323612770
+      Nightstand_0: 1105564686
       Indoor_tiles_68: 1082037828
       Floor_2: -2030166168
+      Frame_0: 627076657
       Indoor_tiles_93: -47715337
       Indoor_tiles_102: -1262919900
       Wall_0: 900563898
       Chair_3: -187242128
       Indoor_tiles_100: 180290921
       Indoor_tiles_55: 295205262
-      Indoor_tiles_42: -1842884672
       Indoor_tiles_54: -1302429727
       Indoor_tiles_70: 128937370
       Indoor_tiles_108: -884483073
@@ -2499,8 +2539,9 @@ TextureImporter:
       Indoor_tiles_62: 1315100667
       Floor_3: -665633214
       Indoor_tiles_47: 1324471277
-      Indoor_tiles_103: 2121031589
+      Window_0: 1323930163
       Indoor_tiles_96: 390981370
+      Indoor_tiles_103: 2121031589
       Indoor_tiles_23: 1806789515
       Indoor_tiles_38: 1306847489
       Indoor_tiles_79: 196599706
@@ -2511,6 +2552,7 @@ TextureImporter:
       Indoor_tiles_56: -1480225639
       Indoor_tiles_34: -789177411
       Sofa_2: -1069824360
+      Plant_15: 1093488667
       Indoor_tiles_64: -1851332230
       Indoor_tiles_40: -307327737
       Indoor_tiles_101: 1241483856
@@ -2518,29 +2560,31 @@ TextureImporter:
       Indoor_tiles_73: -1932986432
       Chair_0: 1888543458
       Indoor_tiles_1: -1106787520
+      Sink_0: 983061561
       Chair_1: 252435808
       Indoor_tiles_106: -1930349851
       Indoor_tiles_52: 1405845658
+      Bed_1: 1907899255
       Indoor_tiles_9: 86851220
       Indoor_tiles_49: 630412499
       Floor_6: 1388915516
       Indoor_tiles_26: -1613921515
       Indoor_tiles_41: -1645494617
       Indoor_tiles_80: 434549269
-      Indoor_tiles_29: 1105564686
       Table_0: -462442219
-      Indoor_tiles_81: 1818873216
       Fridge_0: 1379372481
+      Indoor_tiles_81: 1818873216
       Indoor_tiles_88: -1459058423
+      Setup_0: -475442730
       Chair_2: -1838495826
       Tv_0: -984292623
+      Bed_0: 2931172
       Indoor_tiles_65: 520110467
       Indoor_tiles_91: -158296330
       Indoor_tiles_98: -716270804
       Indoor_tiles_99: -1601110180
       Indoor_tiles_90: 760683608
       Indoor_tiles_92: -628377220
-      Indoor_tiles_30: 1323930163
       Bg_0: -837347490
       Indoor_tiles_27: -703734059
       Indoor_tiles_69: -114492311
