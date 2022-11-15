@@ -7,13 +7,20 @@ public class Dialogue : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public GameObject continuar;
+    public GameObject npc;
+    public GameObject key;
     public Text dialogueText;
     public string[] dialogue;
     private int index;
     public float wordSpeed;
     public bool isClose;
 
+    public bool food;
+    public bool keyGrabbed = true;
+    
+
     // Update is called once per frame
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z) && isClose)
@@ -29,10 +36,12 @@ public class Dialogue : MonoBehaviour
             }
         }
 
-        if (dialogueText.text == dialogue[index])
+        if (dialogueText.text == dialogue[index] && dialogueText.text != "")
         {
             continuar.SetActive(true);
         }
+
+        
     }
 
     public void zeroText()
@@ -72,8 +81,29 @@ public class Dialogue : MonoBehaviour
         if (collider.name == "Player")
         {
             isClose = true;
+
+        }
+
+        Player player = collider.GetComponent<Player>();
+
+        if (player != null)
+        {
+            food = player.tomatoGrab;
+        }
+
+        if (npc.name == "Carmen" && food)
+        {
+            Debug.Log("Encontre el dialogo");
+            dialogue[0] = "¡Muchas gracias por los tomates!";
+            dialogue[1] = "Te deje la llave sobre la mesa.";
+            if (keyGrabbed)
+            {
+                key.SetActive(true);
+                keyGrabbed = false;
+            }
             
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collider)

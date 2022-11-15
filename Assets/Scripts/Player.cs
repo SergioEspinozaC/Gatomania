@@ -8,11 +8,23 @@ public class Player : MonoBehaviour
     public float pushForce = 10f;
     public bool tool = false;
     public bool toolGrab = false;
+    public bool tomato = false;
+    public bool tomatoGrab = false;
+    public bool keyCollision = false;
+    public bool keyGrab = false;
+    public bool keyCollision_1 = false;
+    public bool keyGrab_1 = false;
+    public bool keyCollision_2 = false;
+    public bool keyGrab_2 = false;
 
     private Vector2 direction;
     private Rigidbody2D rigidBody;
     private GameObject insideHouse;
     private GameObject axe;
+    private GameObject food;
+    private GameObject key;
+    private GameObject key_1;
+    private GameObject key_2;
     private float movimientoX;
     private float movimientoY;
     private Animator animator;
@@ -64,6 +76,34 @@ public class Player : MonoBehaviour
             Debug.Log("tiene el hacha : " + tool);
             toolGrab = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.Z) && tomato)
+        {
+            food.gameObject.SetActive(false);
+            Debug.Log("tiene el tomato : " + tomato);
+            tomatoGrab = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z) && keyCollision)
+        {
+            key.gameObject.SetActive(false);
+            Debug.Log("tiene la llave");
+            keyGrab = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z) && keyCollision_1)
+        {
+            key_1.gameObject.SetActive(false);
+            Debug.Log("tiene la llave");
+            keyGrab_1 = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z) && keyCollision_2)
+        {
+            key_2.gameObject.SetActive(false);
+            Debug.Log("tiene la llave");
+            keyGrab_2 = true;
+        }
     }
 
     private void FixedUpdate()
@@ -91,11 +131,32 @@ public class Player : MonoBehaviour
 
             tool = true;
             axe = collider.gameObject;
-            Debug.Log("tiene el hacha : " + tool + axe);
 
         }
 
+        if (collider.name == "Tomato")
+        {
+            tomato = true;
+            food = collider.gameObject;
+        }
 
+        if(collider.name == "Key")
+        {
+            keyCollision = true;
+            key = collider.gameObject;
+        }
+
+        if (collider.name == "Key_1")
+        {
+            keyCollision = true;
+            key = collider.gameObject;
+        }
+
+        if (collider.name == "Key_2")
+        {
+            keyCollision = true;
+            key = collider.gameObject;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collider)
@@ -105,13 +166,35 @@ public class Player : MonoBehaviour
         {
             insideHouse = null;
         }
+
         if (collider.name == "Axe")
         {
-
             tool = false;
             axe = null;
-            Debug.Log("NO tiene el hacha : " + tool + axe);
+        }
 
+        if (collider.name == "Tomato")
+        {
+            tomato = false;
+            food = null;
+        }
+
+        if (collider.name == "Key")
+        {
+            keyCollision = false;
+            key = null;
+        }
+
+        if (collider.name == "Key_1")
+        {
+            keyCollision = false;
+            key = null;
+        }
+
+        if (collider.name == "Key_2")
+        {
+            keyCollision = false;
+            key = null;
         }
     }
 

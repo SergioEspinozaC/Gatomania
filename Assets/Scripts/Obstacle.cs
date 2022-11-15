@@ -23,18 +23,10 @@ public class Obstacle : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collider)
     {
         Player player = collider.GetComponent<Player>();
+
         if (player != null)
         {
-           // player.tool;
-            Debug.Log(player.tool);
             tool = player.toolGrab;
         }
     }
-
-    public void Hit()
-    {
-        
-        Destroy(gameObject);
-        
-    }
 }
