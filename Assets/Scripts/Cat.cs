@@ -5,9 +5,16 @@ using UnityEngine;
 public class Cat : MonoBehaviour
 {
 
-    private GameObject catPosition;
+    // Start is called before the first frame update*/
+
+    public GameObject[] cats;
     public GameObject cage;
-    // Start is called before the first frame update
+
+    public bool key_1;
+    public bool key_2;
+    public bool key_3;
+
+
     void Start()
     {
         
@@ -16,36 +23,28 @@ public class Cat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && catPosition)
+        if (key_1 && key_2 && key_3 && Input.GetKeyDown(KeyCode.Z))
         {
-            transform.position = catPosition.transform.position;
-            Debug.Log("deberia teletransportarse pero no lo hago");
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.name == "PointA" || collider.name == "PointB")
-        {
-            GameObject warp = collider.transform.parent.gameObject;
-            if (collider.name == "PointA")
+            cage.gameObject.SetActive(false);
+            for (int i = 0; i < 4; i++)
             {
-                catPosition = warp.transform.Find("PointB").gameObject;
+                cats[i].gameObject.SetActive(true);
             }
-            else
-            {
-                catPosition = warp.transform.Find("PointA").gameObject;
-            }
+            
         }
+
     }
 
-    private void OnTriggerExit2D(Collider2D collider)
+    public void OnTriggerEnter2D(Collider2D collider)
     {
+        Player player = collider.GetComponent<Player>();
 
-        if (collider.name == "PointA" || collider.name == "PointB")
+        if (player != null)
         {
-            catPosition = null;
+            key_1 = player.keyGrab;
+            key_2 = player.keyGrab_1;
+            key_3 = player.keyGrab_2;
         }
     }
 
-    }
+}

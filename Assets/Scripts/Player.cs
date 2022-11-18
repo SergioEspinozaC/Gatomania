@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public bool keyGrab_1 = false;
     public bool keyCollision_2 = false;
     public bool keyGrab_2 = false;
+    
 
     private Vector2 direction;
     private Rigidbody2D rigidBody;
@@ -104,6 +105,12 @@ public class Player : MonoBehaviour
             Debug.Log("tiene la llave");
             keyGrab_2 = true;
         }
+
+        /*if (Input.GetKeyDown(KeyCode.Z))
+        {
+            gameObject.Find(Cat_1).SetActive = false;
+            gameObject.Find("Cat_2").SetActive = true;
+        }*/
     }
 
     private void FixedUpdate()
@@ -183,6 +190,11 @@ public class Player : MonoBehaviour
         {
             keyCollision = false;
             key = null;
+        }
+
+        if(collider.name == "Cage")
+        {
+
         }
 
         if (collider.name == "Key_1")
