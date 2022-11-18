@@ -32,7 +32,7 @@ public class Cat : MonoBehaviour
             }
             
         }
-
+       
     }
 
     public void OnTriggerEnter2D(Collider2D collider)

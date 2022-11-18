@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     private GameObject key;
     private GameObject key_1;
     private GameObject key_2;
+    public GameObject npc;
     private float movimientoX;
     private float movimientoY;
     private Animator animator;
@@ -105,6 +106,10 @@ public class Player : MonoBehaviour
             Debug.Log("tiene la llave");
             keyGrab_2 = true;
         }
+        if (keyGrab && keyGrab_1 && keyGrab_2 && npc.name == "Jake")
+        {
+            npc.SetActive(false);
+        }
 
         /*if (Input.GetKeyDown(KeyCode.Z))
         {
@@ -155,14 +160,14 @@ public class Player : MonoBehaviour
 
         if (collider.name == "Key_1")
         {
-            keyCollision = true;
-            key = collider.gameObject;
+            keyCollision_1 = true;
+            key_1 = collider.gameObject;
         }
 
         if (collider.name == "Key_2")
         {
-            keyCollision = true;
-            key = collider.gameObject;
+            keyCollision_2 = true;
+            key_2 = collider.gameObject;
         }
     }
 
@@ -190,11 +195,6 @@ public class Player : MonoBehaviour
         {
             keyCollision = false;
             key = null;
-        }
-
-        if(collider.name == "Cage")
-        {
-
         }
 
         if (collider.name == "Key_1")

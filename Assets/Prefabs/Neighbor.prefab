@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 2664697993586111387}
   - component: {fileID: 2664697993586111386}
   - component: {fileID: 2664697993586111382}
+  - component: {fileID: 4115817181912259379}
   m_Layer: 0
   m_Name: Neighbor
   m_TagString: Untagged
@@ -749,9 +750,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 2664697992099565162}
   continuar: {fileID: 2664697991740824177}
+  npc: {fileID: 2664697991507008352}
+  key: {fileID: 0}
   dialogueText: {fileID: 2664697991778721049}
   dialogue:
   - Hola
   - Buenos dias
   wordSpeed: 0.06
   isClose: 0
+  food: 0
+  keyGrabbed: 1
+  dialogueChange: {fileID: 4115817181912259379}
+--- !u!114 &4115817181912259379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2664697993586111389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32afbd79c099a9a4d9c551f7e0bf034e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cats: []
+  cage: {fileID: 0}
+  key_1: 0
+  key_2: 0
+  key_3: 0
+  catFreedom: 0
