@@ -8,7 +8,7 @@ public class Scene : MonoBehaviour
 {
    public void CambiarEscenaClick(string sceneName){
      SceneManager.LoadScene(sceneName);
-    //StartCoroutine(retrasoEscena(sceneName));
+     StartCoroutine(retrasoEscena(sceneName));
   }
 
   public void SalirJuego(){

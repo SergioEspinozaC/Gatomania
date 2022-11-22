@@ -111,11 +111,6 @@ public class Player : MonoBehaviour
             npc.SetActive(false);
         }
 
-        /*if (Input.GetKeyDown(KeyCode.Z))
-        {
-            gameObject.Find(Cat_1).SetActive = false;
-            gameObject.Find("Cat_2").SetActive = true;
-        }*/
     }
 
     private void FixedUpdate()

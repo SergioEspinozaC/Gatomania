@@ -941,6 +941,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62059690}
   m_CullTransparentMesh: 1
+--- !u!1 &65916205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65916209}
+  - component: {fileID: 65916208}
+  - component: {fileID: 65916207}
+  - component: {fileID: 65916206}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &65916206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65916205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &65916207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65916205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &65916208
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65916205}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &65916209
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65916205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1142401128}
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &75745141
 GameObject:
   m_ObjectHideFlags: 0
@@ -22287,7 +22388,7 @@ MonoBehaviour:
   dialogue:
   - "\xBFQu\xE9 haces aqu\xED?"
   - "Vete, aqu\xED no hay nada que ver."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -22444,7 +22545,7 @@ MonoBehaviour:
   dialogue:
   - "Yo no tengo ning\xFAn gato."
   - "La verdad, me gustan m\xE1s los perros."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -22904,7 +23005,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &102856195
 BoxCollider2D:
@@ -23324,7 +23425,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &131663842
 BoxCollider2D:
@@ -24514,7 +24615,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &207486079
 BoxCollider2D:
@@ -24772,6 +24873,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &217683584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24900,6 +25013,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25276,7 +25401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &265225881
 GameObject:
@@ -26071,6 +26196,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &317527782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26484,7 +26621,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &377543529 stripped
 Transform:
@@ -26520,7 +26657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8000883696423094583, guid: dc39c3e2c01ecfb41bcf968b553d9706, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8000883696423094583, guid: dc39c3e2c01ecfb41bcf968b553d9706, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27268,7 +27405,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &405961296
 BoxCollider2D:
@@ -27325,7 +27462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8000883696423094583, guid: dc39c3e2c01ecfb41bcf968b553d9706, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8000883696423094583, guid: dc39c3e2c01ecfb41bcf968b553d9706, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27655,7 +27792,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &434628371
 GameObject:
@@ -28300,7 +28437,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &485268259
 BoxCollider2D:
@@ -28649,7 +28786,7 @@ Transform:
   - {fileID: 2090481431}
   - {fileID: 1514053027}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &512503866
 GameObject:
@@ -28741,6 +28878,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -29326,7 +29475,7 @@ Transform:
   - {fileID: 1583219299}
   - {fileID: 78492230}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &578963322
 GameObject:
@@ -29800,6 +29949,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30516,7 +30677,7 @@ MonoBehaviour:
   dialogue:
   - "Me pregunto que estar\xE1 cocinando Do\xF1a Carmen."
   - "\xA1Huele delicioso!"
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -30943,7 +31104,7 @@ MonoBehaviour:
   dialogue:
   - "Perd\xED a mi gato."
   - "Estoy muy triste, \xA1ay\xFAdame a encontrarlo!"
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -31624,7 +31785,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &699961964
 BoxCollider2D:
@@ -32155,7 +32316,7 @@ MonoBehaviour:
   dialogue:
   - Mi gato es muy costoso.
   - Mas vale que no lo hayas robado.
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -32557,7 +32718,7 @@ MonoBehaviour:
   - "\xA1Buen d\xEDa, vecino!"
   - "\xBFDe casualidad no has visto a mi gato? Lleva unos d\xEDas sin regresar a
     casa..."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -32990,6 +33151,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33749,6 +33922,74 @@ Transform:
   m_Father: {fileID: 1464935709}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &857172704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7893461833784825481, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_Name
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5355725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20107436
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.30845255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893461833784825483, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+--- !u!114 &857172705 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7893461833784825480, guid: 266c0943bf5df1042881a7a0cbf34b0e, type: 3}
+  m_PrefabInstance: {fileID: 857172704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b808d28e6dc6a654588eb9aee5560d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &861430493 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5636028475830958590, guid: 16123dfc3065d6a46a4cdf7ed2d80082, type: 3}
@@ -34063,7 +34304,7 @@ MonoBehaviour:
   dialogue:
   - "\xA1Amor y paz, hermanos!"
   - En especial a los gatos.
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -34173,7 +34414,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34265,6 +34506,7 @@ MonoBehaviour:
   - {fileID: 1808867667}
   - {fileID: 433833047}
   cage: {fileID: 889825695}
+  cageManager: {fileID: 1289421920}
   key_1: 0
   key_2: 0
   key_3: 0
@@ -34363,6 +34605,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &907041905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34401,6 +34655,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907041902}
   m_CullTransparentMesh: 1
+--- !u!1 &907454664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 907454666}
+  - component: {fileID: 907454665}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &907454665
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907454664}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 85b8c111d63de4d418028f0a2352b232, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.04
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &907454666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907454664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910743465
 GameObject:
   m_ObjectHideFlags: 0
@@ -34885,6 +35267,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &957866779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35013,6 +35407,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35223,7 +35629,7 @@ MonoBehaviour:
   dialogue:
   - "He visto a un tipo irse detr\xE1s de esos arbustos."
   - "Llevaba unas jaulas, me pregunto para qu\xE9."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -36280,7 +36686,7 @@ Transform:
   - {fileID: 1742901013}
   - {fileID: 881194803}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019753218
 GameObject:
@@ -36391,7 +36797,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020308225
 GameObject:
@@ -36856,7 +37262,7 @@ MonoBehaviour:
   dialogue:
   - "Me parece muy extra\xF1o que todos los gatos hayan desaparecido."
   - "Si me preguntas, sospecho que un vecino se los rob\xF3 todos..."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -37047,6 +37453,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37470,7 +37888,7 @@ MonoBehaviour:
     tomates."
   - "\xBFPodrias ayudarme y traerme unos cuantos de la huerta? A cambio te dar\xE9
     una llave que encontr\xE9 por ahi, \xA1tal vez encuentres un tesoro!"
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -37846,6 +38264,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1142401127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142401128}
+  - component: {fileID: 1142401130}
+  - component: {fileID: 1142401129}
+  m_Layer: 5
+  m_Name: DialoguePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1142401128
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142401127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 7.1002, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1578234528}
+  - {fileID: 1357273333}
+  m_Father: {fileID: 65916209}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -2.1192017, y: 124.25802}
+  m_SizeDelta: {x: 84.2805, y: 125.4839}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1142401129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142401127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0.8784314}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1142401130
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142401127}
+  m_CullTransparentMesh: 1
 --- !u!1 &1146755742
 GameObject:
   m_ObjectHideFlags: 0
@@ -39183,6 +39679,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1289421919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289421921}
+  - component: {fileID: 1289421920}
+  m_Layer: 0
+  m_Name: Cage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1289421920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289421919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d77009316d0f2c42b4b58421162b5e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 1142401127}
+  continuar: {fileID: 1357273332}
+  dialogueText: {fileID: 1578234529}
+  dialogue: 
+--- !u!4 &1289421921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289421919}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306506782
 GameObject:
   m_ObjectHideFlags: 0
@@ -39954,7 +40498,7 @@ Transform:
   - {fileID: 364948552}
   - {fileID: 820992742}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1331978911
 PrefabInstance:
@@ -39965,7 +40509,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40079,7 +40623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40497,6 +41041,151 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5636028475830958590, guid: 16123dfc3065d6a46a4cdf7ed2d80082, type: 3}
   m_PrefabInstance: {fileID: 1699094849}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1357273332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1357273333}
+  - component: {fileID: 1357273336}
+  - component: {fileID: 1357273335}
+  - component: {fileID: 1357273334}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1357273333
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357273332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.14084111, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1142401128}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 31.7, y: -34.99}
+  m_SizeDelta: {x: 128.73935, y: 34.0613}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1357273334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357273332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1357273335}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1289421920}
+        m_TargetAssemblyTypeName: Cage, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1357273335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357273332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1242421277, guid: 56962564e3a93534a91ddabaf098ad27, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1357273336
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357273332}
+  m_CullTransparentMesh: 1
 --- !u!1 &1359587581
 GameObject:
   m_ObjectHideFlags: 0
@@ -40764,7 +41453,7 @@ MonoBehaviour:
   dialogue:
   - "\xA1Bienvenido a Pueblo Persa!"
   - "Aunque \xFAltimamente los gatos han desaparecido..."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -41486,7 +42175,7 @@ MonoBehaviour:
   - "Creo que esos peque\xF1os arbustos verdes pueden romperse con un hacha."
   - "Dej\xE9 la m\xEDa en alguna parte dentro de mi jard\xEDn de girasoles, si la
     encuentras, t\xF3mala y podr\xE1 ayudarte."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -41677,6 +42366,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41948,6 +42649,7 @@ GameObject:
   - component: {fileID: 1424103605}
   - component: {fileID: 1424103607}
   - component: {fileID: 1424103606}
+  - component: {fileID: 1424103608}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -95643,6 +96345,102 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!82 &1424103608
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424103604}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1430622959
 GameObject:
   m_ObjectHideFlags: 0
@@ -95704,7 +96502,7 @@ Transform:
   - {fileID: 164077973}
   - {fileID: 1582772150}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434810131
 GameObject:
@@ -96196,7 +96994,7 @@ Transform:
   - {fileID: 552806970}
   - {fileID: 1276262601}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470503388
 GameObject:
@@ -97588,6 +98386,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1555240509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97856,6 +98666,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1561859327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98034,7 +98856,7 @@ MonoBehaviour:
   dialogue:
   - Mi querido Kiwi no ha regresado.
   - "Espero que no se est\xE9 peleando con otros gatos."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -98135,6 +98957,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1578234527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578234528}
+  - component: {fileID: 1578234530}
+  - component: {fileID: 1578234529}
+  m_Layer: 5
+  m_Name: DialogueText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1578234528
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578234527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.14084111, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1142401128}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 8.9, y: 2}
+  m_SizeDelta: {x: 408.81647, y: 61.4223}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1578234529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578234527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1578234530
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578234527}
+  m_CullTransparentMesh: 1
 --- !u!1 &1578692212
 GameObject:
   m_ObjectHideFlags: 0
@@ -98526,7 +99428,7 @@ MonoBehaviour:
   dialogue:
   - "Me pregunto que estar\xE1 haciendo mi vecino."
   - "Sali\xF3 de su casa muy apresurado con unas jaulas. \xA1Que miedo!"
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -108716,7 +109618,7 @@ MonoBehaviour:
   dialogue:
   - "\xBFHas visto a mi gato?"
   - "Espero que est\xE9 bien."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -109023,6 +109925,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1676848363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109094,7 +110008,7 @@ Transform:
   - {fileID: 2030534480}
   - {fileID: 1632338053}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1686224291
 GameObject:
@@ -109617,7 +110531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -109838,7 +110752,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -125960,7 +126874,7 @@ MonoBehaviour:
   dialogue:
   - "\xA1LLEVE LAS VERDURAS!"
   - "\xA1Buen d\xEDa! \xBFNecesitas alguna verdura? \xA1T\xF3mala con confianza!"
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -126334,7 +127248,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1827138148
 PrefabInstance:
@@ -126449,7 +127363,7 @@ MonoBehaviour:
   dialogue:
   - "Hace d\xEDas no veo a mi querido Fluffy."
   - "Estoy muy preocupada por \xE9l, es por eso que no lo dejo salir."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -127029,6 +127943,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1872872510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127326,6 +128252,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1900017919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127463,6 +128401,7 @@ MonoBehaviour:
   - {fileID: 699961961}
   - {fileID: 2123078419}
   cage: {fileID: 1930795266}
+  cageManager: {fileID: 1289421920}
   key_1: 0
   key_2: 0
   key_3: 0
@@ -127660,7 +128599,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1956710145
 GameObject:
@@ -127744,7 +128683,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1959096905
 GameObject:
@@ -128118,12 +129057,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968869363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.97, y: 30.24, z: 0}
+  m_LocalPosition: {x: -28.072, y: 30.232, z: 0}
   m_LocalScale: {x: 0.97186863, y: 1.0098075, z: 1.0098075}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1968869369
 Animator:
@@ -128388,7 +129327,7 @@ Transform:
   - {fileID: 1424103605}
   - {fileID: 2136787205}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2001733104
 GameObject:
@@ -128480,6 +129419,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -129401,7 +130352,7 @@ MonoBehaviour:
   dialogue:
   - Espero que mi esposo regrese pronto de la huerta.
   - Tenemos mucha variedad de vegetales, incluyendo tomates.
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -129597,6 +130548,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2047193497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129730,6 +130693,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 857172705}
+        m_TargetAssemblyTypeName: SoundEffects, Assembly-CSharp
+        m_MethodName: playSonido
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c7e2ec98033a68945a0547e59c5ec998, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2061883050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129824,7 +130799,7 @@ MonoBehaviour:
   dialogue:
   - "Ese se\xF1or est\xE1 actuando muy extra\xF1o."
   - No me deja entrar a la cueva.
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -130092,7 +131067,7 @@ MonoBehaviour:
   dialogue:
   - "\xBFD\xD3NDE EST\xC1 MI PEQUE\xD1O MISHI?"
   - "LO EXTRA\xD1O MUCHO."
-  wordSpeed: 0.001
+  wordSpeed: 0.01
   isClose: 0
   food: 0
   keyGrabbed: 1
@@ -130276,7 +131251,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2074402000
 BoxCollider2D:
@@ -131177,7 +132152,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2123078422
 BoxCollider2D:
@@ -132776,7 +133751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 6143142852866384313, guid: ebe5f85a0e78fbc46b3cf2b27b55d8f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -132875,6 +133850,7 @@ MonoBehaviour:
   - {fileID: 2074401997}
   - {fileID: 485268256}
   cage: {fileID: 1269300530}
+  cageManager: {fileID: 1289421920}
   key_1: 0
   key_2: 0
   key_3: 0
@@ -132895,7 +133871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8000883696423094583, guid: dc39c3e2c01ecfb41bcf968b553d9706, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8000883696423094583, guid: dc39c3e2c01ecfb41bcf968b553d9706, type: 3}
       propertyPath: m_LocalPosition.x

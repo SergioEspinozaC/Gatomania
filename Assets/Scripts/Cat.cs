@@ -9,6 +9,7 @@ public class Cat : MonoBehaviour
 
     public GameObject[] cats;
     public GameObject cage;
+    public Cage cageManager;
 
     public bool key_1;
     public bool key_2;
@@ -30,7 +31,7 @@ public class Cat : MonoBehaviour
             {
                 cats[i].gameObject.SetActive(true);
             }
-            
+            cageManager.OpenCage();
         }
        
     }
