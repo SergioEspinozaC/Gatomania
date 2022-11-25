@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class Scene : MonoBehaviour
 {
    public void CambiarEscenaClick(string sceneName){
-     SceneManager.LoadScene(sceneName);
      StartCoroutine(retrasoEscena(sceneName));
   }
 
@@ -17,7 +16,7 @@ public class Scene : MonoBehaviour
   }
 
   IEnumerator retrasoEscena(string sceneName){
-    yield return new WaitForSecondsRealtime(1f);
+    yield return new WaitForSecondsRealtime(0.5f);
     SceneManager.LoadScene(sceneName);
   }
 

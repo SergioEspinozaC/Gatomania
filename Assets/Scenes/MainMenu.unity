@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2759257061656355239, guid: eb7e3bb658757454999e854f30de5c6b, type: 3}
+      - m_Target: {fileID: 1707688606}
         m_TargetAssemblyTypeName: Scene, Assembly-CSharp
         m_MethodName: CambiarEscenaClick
         m_Mode: 5
