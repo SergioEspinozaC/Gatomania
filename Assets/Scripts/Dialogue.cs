@@ -95,7 +95,6 @@ public class Dialogue : MonoBehaviour
 
         if (npc.name == "Carmen" && food)
         {
-            Debug.Log("Encontre el dialogo");
             dialogue[0] = "¡Muchas gracias por los tomates!";
             dialogue[1] = "Te deje la llave sobre la mesa.";
             if (keyGrabbed)

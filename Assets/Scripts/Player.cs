@@ -75,35 +75,30 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z) && tool)
         {
             axe.gameObject.SetActive(false);
-            Debug.Log("tiene el hacha : " + tool);
             toolGrab = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Z) && tomato)
         {
             food.gameObject.SetActive(false);
-            Debug.Log("tiene el tomato : " + tomato);
             tomatoGrab = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Z) && keyCollision)
         {
             key.gameObject.SetActive(false);
-            Debug.Log("tiene la llave");
             keyGrab = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Z) && keyCollision_1)
         {
             key_1.gameObject.SetActive(false);
-            Debug.Log("tiene la llave");
             keyGrab_1 = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Z) && keyCollision_2)
         {
             key_2.gameObject.SetActive(false);
-            Debug.Log("tiene la llave");
             keyGrab_2 = true;
         }
         if (keyGrab && keyGrab_1 && keyGrab_2 && npc.name == "Jake")
